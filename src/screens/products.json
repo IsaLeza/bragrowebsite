@@ -1,0 +1,1773 @@
+[
+    {
+        "id": "1",
+        "name": "+PODER",
+        "image": "/media/mockupsBRAgro/+PODER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA - ACARICIDA",
+        "composition": [
+            {
+                "component": "Extracto de Ajo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Extracto de Chile",
+                "sciname": "Capsidium futescens",
+                "percentage": "30%"
+            },
+            {
+                "component": "Extracto de Canela",
+                "sciname": "Cinnamomun zeylanicum",
+                "percentage": "15%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "25%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 385
+            },
+            {
+                "size": "5L",
+                "packaging": "1 garrafa",
+                "price": 1790
+            },
+            {
+                "size": "10L",
+                "packaging": "1 garrafa",
+                "price": 3520
+            },
+            {
+                "size": "20L",
+                "packaging": "1 garrafa",
+                "price": 6981
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "AGROCAL",
+        "image": "/media/mockupsBRAgro/AGROCAL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "CALCIO DE ALTO RENDIMIENTO",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "35%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "35%%"
+            },
+            {
+                "component": "Algas marinas",
+                "sciname": "(Ascophyllum nodosum)",
+                "percentage": "20,000 ppm"
+            },
+            {
+                "component": "Húmicos",
+                "percentage": "80,000 ppm"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "1,000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "4L",
+                "packaging": "1 cubeta",
+                "price": 627
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "ALGAXEN",
+        "image": "/media/mockupsBRAgro/ALGAXEN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "BIOESTIMULANTE",
+        "composition": [
+            {
+                "component": "Algas marinas",
+                "percentage": "100,000 ppm"
+            },
+            {
+                "component": "Aminoles",
+                "percentage": "50,000 ppm"
+            },
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "1.2000%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "0.820%"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "1,000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 256.58
+            },
+            {
+                "size": "5L",
+                "packaging": "1 garrafa",
+                "price": 1109.97
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "BIO ACTIVO",
+        "image": "../media/mockupsBRAgro/BIOACTIVO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "BIORREGULADOR",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": 144
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 398
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1838
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 3420
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 6480
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "BIOCIN",
+        "image": "../media/mockupsBRAgro/BIOCIN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA - ACARICIDA",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 335
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1576
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2948
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 5776
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "BIOGAR",
+        "image": "../media/mockupsBRAgro/BIOGAR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 239
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1110
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2089
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 4058
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "CALTREX",
+        "image": "../media/mockupsBRAgro/CALTREX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "FERTILIZANTE FOLIAR",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 155
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 653
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 1233
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 2320
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "DESTREC",
+        "image": "../media/mockupsBRAgro/DESTREC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Antiestresante y Activador Fisiológico",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 299
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1409
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2698
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 5311
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "BR GRON 20-30-10",
+        "image": "../media/mockupsBRAgro/BR-GRON203010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar extra soluble",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 149
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "BR GRON NPK 30-10-10",
+        "image": "../media/mockupsBRAgro/BRGRONNPK301010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante altamente soluble",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 123
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "BR GRON NPK 10-40-10",
+        "image": "../media/mockupsBRAgro/BRGRONNPK104010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante altamente soluble",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 148
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "EPAZTRAC",
+        "image": "../media/mockupsBRAgro/EPAZTRAC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 239
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1098
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2100
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 4117
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "EXTRAMINO",
+        "image": "../media/mockupsBRAgro/EXTRAMINO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Aminoácidos",
+        "presentations": [
+            {
+                "size": "250ML.",
+                "packaging": "Caja de 48 pz",
+                "price": "143"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "397"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1890"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3565"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6804"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "FOLINITRO",
+        "image": "../media/mockupsBRAgro/FOLINITRO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "227"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "979"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1838"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3461"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "FULLHUMICS",
+        "image": "../media/mockupsBRAgro/FULLHUMICS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Ácidos húmicos y fúlvicos derivados de leonardita",
+        "presentations": [
+            {
+                "size": "25KG",
+                "packaging": "Bulto",
+                "price": "1130"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "PEROXIGREEN",
+        "image": "../media/mockupsBRAgro/PEROXIGREEN M01.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fungicida y Bactericida de amplio espectro",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "513"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2484"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "4752"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "9072"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "DELUX POTASIO",
+        "image": "../media/mockupsBRAgro/DELUX POTASIO M.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar potenciado con aminoácidos y microelementos",
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "67"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "149"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "GLUTAMASTER",
+        "image": "../media/mockupsBRAgro/GLUTAMASTER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Ácido glutámico",
+        "presentations": [
+            {
+                "size": "150GR",
+                "packaging": "Caja de 48 pz",
+                "price": "274"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "1728"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "KUPEWA",
+        "image": "../media/mockupsBRAgro/KUPEWA.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y acaracida",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "248"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1188"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2283"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4450"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "MASTER CALCIO BZN",
+        "image": "../media/mockupsBRAgro/MASTER CALCIO BZN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de boro, calcio y zinc",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "179"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "770"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1426"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2745"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "MASTER CALCIO RIEGO",
+        "image": "../media/mockupsBRAgro/MASTER CALCIO RIEGO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "235"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1125"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2161"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3960"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "17101"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "32400"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "MASTER ORGANIC",
+        "image": "../media/mockupsBRAgro/MASTER ORGANIC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo orgánico fulvato",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "186"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "857"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1618"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3062"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "14400"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "27002"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "MASTER PROTECT",
+        "image": "../media/mockupsBRAgro/MASTER PROTEC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Desinfectante y sanitizante",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "334"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1551"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2984"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5400"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "name": "MAX FE",
+        "image": "../media/mockupsBRAgro/MAX FE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "171"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "716"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1313"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2446"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "name": "RENDIFLOR",
+        "image": "../media/mockupsBRAgro/RENDIFLOR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo metabólico para floración",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "251"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2208"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4208"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "name": "DELUX NPK 19-19-19",
+        "image": "../media/mockupsBRAgro/2.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar en polvo soluble",
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "67"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "150"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "name": "MAXI ENGORDE",
+        "image": "../media/mockupsBRAgro/MAXI ENGORDE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizantee foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "280"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1126"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2056"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4320"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "20700"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "39600"
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "name": "BIOARRANKE 8-24",
+        "image": "../media/mockupsBRAgro/BIOARRANKE-824.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Arrancador",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "154"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "577"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "898"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "1620"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "7741"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "14400"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "name": "BIOTEK MICROS",
+        "image": "../media/mockupsBRAgro/BIOTEK-MICROS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "179"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "812"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1555"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2592"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "name": "FORTIGREEN",
+        "image": "../media/mockupsBRAgro/FORTIGREEN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "193"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "857"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1441"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2522"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "name": "GIB FRUTA XL",
+        "image": "../media/mockupsBRAgro/GIBFRUTAL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Llenador de frutos",
+        "presentations": [
+            {
+                "size": "100G",
+                "packaging": "Caja de 48 pz",
+                "price": "174"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "850"
+            },
+            {
+                "size": "25KG",
+                "packaging": "1 Saco",
+                "price": "19520"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "name": "MAS ZINC",
+        "image": "../media/mockupsBRAgro/MAS ZINC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "186"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "853"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1373"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2602"
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "name": "MAXI MASTER",
+        "image": "../media/mockupsBRAgro/MAXI MASTER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "107"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "334"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1566"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3030"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "name": "NEMABIT",
+        "image": "../media/mockupsBRAgro/NEMABIT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nematicida orgánico",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "364"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1756"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3420"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6661"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "32401"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "61200"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "name": "NUTRIBAC",
+        "image": "../media/mockupsBRAgro/NITROBAC1.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de nitrógeno",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "119"
+            },
+            {
+                "size": "25KG",
+                "packaging": "Bulto",
+                "price": "2506"
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "name": "NUTRIX 17-17-17",
+        "image": "../media/mockupsBRAgro/NUTRIX 17.17.17.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "158"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "721"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1350"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2345"
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "name": "POTAXION K",
+        "image": "../media/mockupsBRAgro/POTAXION K.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar enriquecido con potasio y aminoácidos",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "259"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2215"
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "name": "POWER BAT",
+        "image": "../media/mockupsBRAgro/POWER BAT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Guano de murciélago",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "188"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "802"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "name": "QUATER SUPREME",
+        "image": "../media/mockupsBRAgro/QUATER SUPREME.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Bactericida y desinfectante",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "247"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2267"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4176.9"
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "name": "QUELTEX FE",
+        "image": "../media/mockupsBRAgro/QUELTEX FE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Quelato de alto rendimiento",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 10 pz",
+                "price": "378"
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "name": "RADICREX",
+        "image": "../media/mockupsBRAgro/RADICREX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Estimulador de raíces",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "108"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "229"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1126"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2161"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 garrafa",
+                "price": "3961"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "18901"
+            },
+            {
+                "size": "200",
+                "packaging": "1 Bidón",
+                "price": "35280"
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "name": "RADIKON",
+        "image": "../media/mockupsBRAgro/RADIKON.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "119.34"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "340"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1575"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2984"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5962"
+            },
+            {
+                "size": "100",
+                "packaging": "1 Bidón",
+                "price": "20808"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "59616"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "RAIXEN PLUS",
+        "image": "../media/mockupsBRAgro/RAIXEN PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "78"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "161"
+            },
+            {
+                "size": "10KG",
+                "packaging": "1 Saco",
+                "price": "1515"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "RPH PLUS",
+        "image": "../media/mockupsBRAgro/RPH PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de PH",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "66"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "169"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "728"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1372"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2566"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "RUSTIMAX",
+        "image": "../media/mockupsBRAgro/RUSTIMAX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo de fitohormonas naturales, vitaminas y activadores metabólicos",
+        "presentations": [
+            {
+                "size": "10G",
+                "packaging": "Caja de 40 pz",
+                "price": "72"
+            },
+            {
+                "size": "100G",
+                "packaging": "Caja de 48 pz",
+                "price": "494"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "4644"
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "name": "SALT MOVER",
+        "image": "../media/mockupsBRAgro/SALT MOVER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Desalinizador y descompactador de suelos",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "363"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1674"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3079"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5938"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "SOYER PLUS",
+        "image": "../media/mockupsBRAgro/SOYER PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Coadyuvante Agroquímico",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "239"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1097.92"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "SUPER GIB",
+        "image": "../media/mockupsBRAgro/SUPERGIB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento vegetal",
+        "presentations": [
+            {
+                "size": "10G",
+                "packaging": "Caja de 40 pz",
+                "price": "62"
+            },
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "578"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "UNIBORO",
+        "image": "../media/mockupsBRAgro/UNIBORO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "163"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "718"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "name": "XTREME K",
+        "image": "../media/mockupsBRAgro/XTREME K.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de Potasio",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "",
+                "price": ""
+            }
+        ]
+    },
+    {
+        "id": "51",
+        "name": "YUCATECH",
+        "image": "../media/mockupsBRAgro/YUCATECH.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Mejorador y descompactador de suelos",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "286"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1307
+            }
+        ]
+    },
+    {
+        "id": "52",
+        "name": "ZUKER MOB",
+        "image": "../media/mockupsBRAgro/ZUCKER MOB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Boro y molibdeno",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "131"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "448"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2078"
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "name": "ALMATINA",
+        "image": "../media/mockupsBRAgro/ALMATINA-M1.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Extracto de algas marinas",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 626
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "name": "ULTRACIT",
+        "image": "../media/mockupsBRAgro/ULTRACIT 250 ML.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento",
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": 410
+            }
+        ]
+    },
+    {
+        "id": "55",
+        "name": "HIPEROOT",
+        "image": "../media/mockupsBRAgro/HIPEROOT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "421"
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "name": "BIO ACTIVO GD",
+        "image": "../media/mockupsBRAgro/BIOACTIVOGD.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Biorregulador",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "400"
+            }
+        ]
+    },
+    {
+        "id": "57",
+        "name": "PINAFULL",
+        "image": "../media/mockupsBRAgro/PINAFULL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento vegetal",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 3456
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1620"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3132"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6264"
+            }
+        ]
+    },
+    {
+        "id": "58",
+        "name": "MAGNO BION MG",
+        "image": "../media/mockupsBRAgro/MAGNO BION MG.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de magnesio",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "OOS",
+                "price": "N/A"
+            },
+            {
+                "size": "5L",
+                "packaging": "OOS",
+                "price": "N/A"
+            },
+            {
+                "size": "10L",
+                "packaging": "OOS",
+                "price": "N/A"
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "name": "VIRUSTAN",
+        "image": "../media/mockupsBRAgro/VIRUSTAN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de Crecimiento tipo 2",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "414"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1978"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3985"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "7128"
+            }
+        ]
+    },
+    {
+        "id": "60",
+        "name": "KILLEG",
+        "image": "../media/mockupsBRAgro/KILLEG.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida Acaricida",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "176"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "486"
+            }
+        ]
+    },
+    {
+        "id": "61",
+        "name": "VERWET",
+        "image": "../media/mockupsBRAgro/VERWET.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Coadyuvante Agrícola No Iónico",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "188"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "605"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2808"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "5616"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "11232"
+            }
+        ]
+    },
+    {
+        "id": "62",
+        "name": "KUCOB",
+        "image": "../media/mockupsBRAgro/KUCOB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fungicida - Bactericida",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "204"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "670"
+            }
+        ]
+    },
+    {
+        "id": "63",
+        "name": "DISPERXIC",
+        "image": "../media/mockupsBRAgro/DISPERXIC 250 ML.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Dispersante",
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "74"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "160"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "702"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1240"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2160"
+            }
+        ]
+    },
+    {
+        "id": "64",
+        "name": "ZUTREC",
+        "image": "../media/mockupsBRAgro/ZUTREC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ]
+    },
+    {
+        "id": "65",
+        "name": "BR PACK",
+        "image": "../media/mockupsBRAgro/BR PACK.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "Desarrollo",
+                "packaging": "1 PAQUETE",
+                "price": "531"
+            },
+            {
+                "size": "Llenado",
+                "packaging": "1 PAQUETE",
+                "price": "531"
+            }
+        ]
+    },
+    {
+        "id": "66",
+        "name": "BR PACK GAVE ENRAIZADOR",
+        "image": "../media/mockupsBRAgro/AGAVE-ENRAIZADOR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "994"
+            }
+        ]
+    },
+    {
+        "id": "67",
+        "name": "BR PACK GAVE DESARROLLO",
+        "image": "../media/mockupsBRAgro/AGAVE-DESARROLLO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "1015"
+            }
+        ]
+    },
+    {
+        "id": "68",
+        "name": "BR PACK GAVE LLENADO",
+        "image": "../media/mockupsBRAgro/AGAVE LLENADO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "907"
+            }
+        ]
+    },
+    {
+        "id": "69",
+        "name": "BR PACK GAVE ANTIESTRÉS",
+        "image": "../media/mockupsBRAgro/AGAVE ANTIESTRÉS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "821"
+            }
+        ]
+    }
+]
