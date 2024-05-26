@@ -109,8 +109,48 @@
                 "percentage": "0.820%"
             },
             {
-                "component": "Ácido Glutámico",
-                "percentage": "1,000 ppm"
+                "component": "Potasio (K2O)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Calcio (Ca2+)",
+                "percentage": "0.2400%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.1400%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "0.2300%"
+            },
+            {
+                "component": "Sodio (Na)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Hierro (F)",
+                "percentage": "0.007%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.15%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "2%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "85%"
             }
         ],
         "presentations": [
@@ -132,6 +172,28 @@
         "image": "../media/mockupsBRAgro/BIOACTIVO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "BIORREGULADOR",
+        "composition": [
+            {
+                "component": "Citoquinina",
+                "percentage": "3081 ppm"
+            },
+            {
+                "component": "Gilberelina",
+                "percentage": "510 ppm"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "98.9%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -166,6 +228,16 @@
         "image": "../media/mockupsBRAgro/BIOCIN.png",
         "category": "CATEGORIA BR AGRO",
         "details": "INSECTICIDA - ACARICIDA",
+        "composition": [
+            {
+                "component": "Extracto de Canela",
+                "percentage": "20%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "80%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -195,6 +267,16 @@
         "image": "../media/mockupsBRAgro/BIOGAR.png",
         "category": "CATEGORIA BR AGRO",
         "details": "INSECTICIDA",
+        "composition": [
+            {
+                "component": "Extracto de ajo (Allium setivum)",
+                "percentage": "90%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "10%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -224,6 +306,24 @@
         "image": "../media/mockupsBRAgro/CALTREX.png",
         "category": "CATEGORIA BR AGRO",
         "details": "FERTILIZANTE FOLIAR",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "7%"
+            },
+            {
+                "component": "Boro",
+                "percentage": "2%"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Húmicos",
+                "percentage": "500 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -253,6 +353,32 @@
         "image": "../media/mockupsBRAgro/DESTREC.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Antiestresante y Activador Fisiológico",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "16%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "8%"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "25400 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "63%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -282,6 +408,64 @@
         "image": "../media/mockupsBRAgro/BR-GRON203010.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar extra soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Azufre",
+                "percentage": "1%"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Boro",
+                "percentage": "0.02%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Cobre",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -296,6 +480,40 @@
         "image": "../media/mockupsBRAgro/BRGRONNPK301010.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante altamente soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "30%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "10%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Boro",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "5%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -310,6 +528,40 @@
         "image": "../media/mockupsBRAgro/BRGRONNPK104010.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante altamente soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "40%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Boro",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "5%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",

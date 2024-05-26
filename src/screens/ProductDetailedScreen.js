@@ -22,7 +22,7 @@ const ProductDetailedScreen = () => {
     }
 
     // Destructure product object properties
-    const { image, name, details, category, presentations } = product;
+    const { image, name, details, category, presentations, composition } = product;
 
     return (
         <div className="product-screen">
@@ -30,6 +30,25 @@ const ProductDetailedScreen = () => {
                 <img src={image} alt={name} className="product-image" />
                 <h2>{name}</h2>
                 <h3>{details}</h3>
+            </div>
+            <div className="product-table-container">
+                <table className="product-table">
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {/* Check if composition array is defined */}
+                        {composition && composition.map((component, index) => (
+                            <tr key={index}>
+                                <td>{component.component}</td>
+                                <td>{component.percentage}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
             <div className="product-table-container">
                 <table className="product-table">

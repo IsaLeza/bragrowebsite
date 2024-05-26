@@ -1,10 +1,10 @@
 import React from 'react';
 
+
 function ReviewCard({ review }) {
   return (
     <div className="review-card">
       <div className="profile-pic">
-        {/* Use the relative path from the public folder */}
         <img src={process.env.PUBLIC_URL + review.foto_perfil} alt="Foto de perfil" />
       </div>
       <div className="review-info">
@@ -18,3 +18,4 @@ function ReviewCard({ review }) {
 }
 
 export default ReviewCard;
+

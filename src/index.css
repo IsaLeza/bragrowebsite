@@ -17,8 +17,14 @@ code {
   display: flex;
   padding: 0 10%;
   justify-content: space-between;
-  /* Alinea los elementos de forma uniforme */
   align-items: center;
+}
+
+/* Media query for tablets and mobile devices */
+@media (max-width: 768px) {
+  .top-banner {
+    display: none;
+  }
 }
 
 .top-banner-links {
@@ -33,18 +39,14 @@ code {
   display: flex;
   align-items: center;
   color: #5f5f5f;
-  /* Cambia el color del texto a gris oscuro */
   text-decoration: none;
-  /* Elimina el subrayado */
 }
 
 .top-banner-links li:not(:last-child) {
   margin-right: 1.6rem;
-  /* Ajuste el margen derecho entre enlaces */
 }
 
-/*NAVBAR*/
-
+/* General styles */
 .navbar {
   background-color: white;
   height: 100px;
@@ -52,8 +54,9 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
-
 
 .logo {
   height: 90px;
@@ -84,10 +87,84 @@ code {
   color: green;
 }
 
+/* Hide top-banner on tablets and mobile devices */
+@media (max-width: 768px) {
+  .top-banner {
+    display: none;
+  }
+}
+
+/* Styles for hamburger menu and overlay */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 100%;
+  height: 4px;
+  background-color: #232b5e;
+  transition: 0.3s;
+}
+
+/* Menu and overlay styles for mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+  }
+
+  .menu-open {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Overlay styles */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.overlay-active {
+  display: block;
+}
+
+/* Bar animation for hamburger */
+.bar-open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar-open:nth-
+
 
 /*MAIN SECTION 1 */
 .main-1 {
-  height: 70vh;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -202,13 +279,103 @@ code {
 .btn-container {
   display: flex;
   gap: 4px;
-
 }
+
+.btn-distribuidor {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "Ubuntu Condensed";
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #179847;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-distribuidor:hover {
+  background-color: #12c22f;
+}
+
+/* Media queries for tablets */
+@media (max-width: 768px) {
+  .main-2 {
+    flex-direction: column;
+    padding: 5% 5%;
+    gap: 1rem;
+  }
+
+  .main-2-txt {
+    width: 100%;
+  }
+
+  .main-2-img {
+    width: 100%;
+  }
+
+  .main-2-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-container .btn-distribuidor {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .main-2-txt h2 {
+    font-size: 28px;
+  }
+
+  .main-2-txt p {
+    font-size: 20px;
+  }
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 480px) {
+  .main-2 {
+    padding: 5% 5%;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .main-2-txt h2 {
+    font-size: 24px;
+  }
+
+  .main-2-txt p {
+    font-size: 18px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+  }
+
+  .btn-container .btn-distribuidor {
+    width: 60%;
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
 
 /*MAIN SECTION 3*/
 
 .main-section {
   height: auto;
+  padding: 0 5%;
 }
 
 .section-title {
@@ -226,14 +393,64 @@ code {
 }
 
 .cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-wrapper {
   display: flex;
   justify-content: center;
 }
 
+/* Media queries for responsiveness */
+
+/* For large screens */
+@media (min-width: 1200px) {
+  .section-title, .section-title2 {
+    font-size: 32px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .section-title, .section-title2 {
+    font-size: 24px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .section-title, .section-title2 {
+    font-size: 20px;
+
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 5%;
+  }
+}
+
+
 .review-card {
   background-color: #fff;
-  width: 300px;
-  margin: 20px;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #000;
   border-radius: 10px;
@@ -242,7 +459,7 @@ code {
 }
 
 .review-card:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 .profile-pic img {
@@ -272,6 +489,90 @@ code {
   font-size: 14px;
   color: #888;
 }
+
+/* Media queries for responsive design */
+
+/* For large screens */
+@media (min-width: 1200px) {
+  .review-card {
+    max-width: 400px;
+  }
+
+  .review-info h3 {
+    font-size: 20px;
+  }
+
+  .star-rating {
+    font-size: 22px;
+  }
+
+  .comment {
+    font-size: 18px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .review-card {
+    max-width: 80%;
+    padding: 15px;
+  }
+
+  .profile-pic img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .review-info h3 {
+    font-size: 16px;
+  }
+
+  .star-rating {
+    font-size: 18px;
+  }
+
+  .comment {
+    font-size: 14px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .review-card {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .profile-pic img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .review-info h3 {
+    font-size: 14px;
+  }
+
+  .star-rating {
+    font-size: 16px;
+  }
+
+  .comment {
+    font-size: 12px;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+}
+
 
 /* PRODUCT CARROUSEL MAIN PAGE*/
 .product-item {
@@ -393,14 +694,12 @@ code {
 
 
 
-
-/*FOOTER START */
+/* Footer Styles */
 footer {
-background-color: #002B45;
+  background-color: #002B45;
   background-size: auto;
   color: #fff;
   text-align: center;
-  
   padding: 1.6rem 8%;
 }
 
@@ -417,7 +716,6 @@ nav ul li {
 
 .contact-info {
   margin-top: 20px;
-
 }
 
 .contact-info p {
@@ -431,9 +729,7 @@ nav ul li {
   color: #000;
   font-weight: 500;
   padding-left: 4px;
-
 }
-
 
 .social-media {
   margin-top: 20px;
@@ -457,18 +753,75 @@ nav ul li a:hover {
 }
 
 .social-media a {
-  color: #FFFF;
+  color: #ffff;
   margin: 0 10px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.fa-facebook{
-  color: #316FF6;
+.fa-facebook {
+  color: #316ff6;
 }
-.fa-instagram{
-  color: #d62976 ;
+
+.fa-instagram {
+  color: #d62976;
 }
+
+/* Media queries for tablets */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .contact-info p {
+    flex-direction: column;
+  }
+
+  .social-media p {
+    flex-direction: column;
+  }
+
+  .social-media a {
+    margin: 10px 0;
+  }
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 480px) {
+  footer {
+    padding: 1rem 5%;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  .contact-info {
+    margin-top: 15px;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+
+  .contact-info p,
+  .social-media p,
+  .copyright p {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info p span {
+    display: block;
+    padding-left: 0;
+  }
+
+  .social-media a {
+    margin: 8px 0;
+  }
+}
+
 /* PRODUCTS SCREEN */
 
 .pscreen-container {

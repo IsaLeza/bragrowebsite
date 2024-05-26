@@ -15,7 +15,8 @@ function MainScreen() {
             buttonText: "Quiero ser Distribuidor",
             image: process.env.PUBLIC_URL + '/media/main-img.png',
             background: `url(${process.env.PUBLIC_URL}/media/main-1-bg.png)`,
-            width: "70%"
+            width: "70%",
+            display: "flex"
         },
         {
             text: "Aprovecha nuestro servicio con drones",
@@ -23,7 +24,8 @@ function MainScreen() {
             buttonText: "Quiero Cotizar",
             image: process.env.PUBLIC_URL + '/media/dronBRAgro.png',
             background: `url(${process.env.PUBLIC_URL}/media/background-blue.png)`,
-            width: "100%"
+            width: "100%",
+            display: "flex"
         },
         {
             text: "Triplica tus ingresos con nosotros",
@@ -31,7 +33,8 @@ function MainScreen() {
             buttonText: "Quiero ser Distribuidor",
             image: process.env.PUBLIC_URL + '/media/DISTRIB.png',
             background: `url(${process.env.PUBLIC_URL}/media/background-red.png)`,
-            width: '60%'
+            width: '60%',
+            display: "flex"
 
         },
 
@@ -54,7 +57,7 @@ function MainScreen() {
 
     return (
         <div>
-            <section className={`main-1 ${currentSlide !== 0 ? 'smooth-transition' : ''}`} style={{ backgroundImage: slides[currentSlide].background }}>
+            <section className={`main-1 ${currentSlide !== 0 ? 'smooth-transition' : ''}`} style={{ backgroundImage: slides[currentSlide].background, display: slides[currentSlide].display }}>
                 <div className="main-1-text">
                     <h1>{slides[currentSlide].text}</h1>
                     <h2>{slides[currentSlide].text2}</h2>
@@ -64,6 +67,7 @@ function MainScreen() {
                     <img src={slides[currentSlide].image} alt="main-1-img" style={{ width: slides[currentSlide].width, height: slides[currentSlide].height }} />
                 </div>
             </section>
+
             <section className="background2">
                 <div className="section-title">
                     <h2>Nuestro Compromiso</h2>
@@ -79,7 +83,6 @@ function MainScreen() {
                     </div>
                     <div className="main-2-img">
                         <img src={process.env.PUBLIC_URL + '/media/map1.png'} alt="main-2-img" />
-
                     </div>
                 </div>
             </section>
@@ -90,14 +93,14 @@ function MainScreen() {
                 </div>
                 <div className="cards-container">
                     {reviews.map((review, index) => (
-                        <div key={index} className="cards-container">
+                        <div key={index} className="card-wrapper">
                             <ReviewCard review={review} />
                         </div>
                     ))}
                 </div>
             </section>
-            <section style={{padding:"1.6rem 0"}}>
-            <div className="section-title">
+            <section style={{ padding: "1.6rem 0" }}>
+                <div className="section-title">
                     <h2>Productos Destacados</h2>
                     <p>Descubre nuestra variedad de productos</p>
                 </div>

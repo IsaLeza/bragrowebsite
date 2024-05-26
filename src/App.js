@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import MainScreen from "./screens/MainScreen";
 import AboutScreen from "./screens/AboutScreen";
@@ -35,8 +35,15 @@ function App() {
 
 
 const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
+      <div className={`overlay ${menuOpen ? 'overlay-active' : ''}`} onClick={toggleMenu}></div>
       <div className="top-banner">
         <div className="top-banner-links-container">
           <ul className="top-banner-links">
@@ -56,25 +63,30 @@ const NavBar = () => {
         </div>
       </div>
       <nav className="navbar">
-        <div >
+        <div>
           <Link to="/">
             <img className="logo" src={process.env.PUBLIC_URL + '/media/bragro.png'} alt="Logo" />
           </Link>
         </div>
-        <ul className="menu">
+        <ul className={`menu ${menuOpen ? 'menu-open' : ''}`}>
           <li>
-            <Link to="/" className="nav-link">INICIO</Link>
+            <Link to="/" className="nav-link" onClick={toggleMenu}>INICIO</Link>
           </li>
           <li>
-            <Link to="/about" className="nav-link">NOSOTROS</Link>
+            <Link to="/about" className="nav-link" onClick={toggleMenu}>NOSOTROS</Link>
           </li>
           <li>
-            <Link to="/products" className="nav-link">PRODUCTOS</Link>
+            <Link to="/products" className="nav-link" onClick={toggleMenu}>PRODUCTOS</Link>
           </li>
           <li>
-            <Link to="/services" className="nav-link">SERVICIOS</Link>
+            <Link to="/services" className="nav-link" onClick={toggleMenu}>SERVICIOS</Link>
           </li>
         </ul>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
+          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
+          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
+        </div>
       </nav>
     </div>
   );
@@ -84,6 +96,7 @@ const Footer = () => {
   const PhoneNumber = ({ number, children }) => (
     <a style={{ color: "#fff", textDecoration: "none" }} href={`tel:${number}`}>{children}</a>
   );
+
   return (
     <footer>
       <nav>
@@ -119,15 +132,11 @@ const Footer = () => {
       <div className="copyright">
         <p>&copy; {new Date().getFullYear()} BR Agro. Todos los derechos reservados.</p>
         <p><Link style={{ textDecoration: "none", color: "#fff" }} to="/terminos-y-condiciones">Términos y Condiciones</Link>{' | '}<Link style={{ textDecoration: "none", color: "#fff" }} to={"/aviso-de-privacidad"}>Aviso de Privacidad</Link></p>
-
       </div>
       <div>
-        <p>Sitio Web desarrollado por <a style={{ textDecoration: "none", color: "#FFF" }} href="https://www.isasoft.com.mx">isaSoft</a></p>
+        <p>Sitio Web desarrollado por <a style={{ textDecoration: "none", color: "#fff" }} href="https://www.isasoft.com.mx">isaSoft</a></p>
       </div>
     </footer>
-
   );
-}
-
-
+};
 export default App;
