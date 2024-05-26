@@ -106,9 +106,6 @@ function MainScreen() {
                 </div>
                 <ProductCarousel />
             </section>
-            <section>
-
-            </section>
         </div>
     );
 }

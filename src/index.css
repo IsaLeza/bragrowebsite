@@ -594,6 +594,7 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
+  width: 100%;
 
 }
 
@@ -609,6 +610,41 @@ code {
   color: #002B45;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   clip-path: polygon(0 0, 100% 0, calc(100% - 100px) 100%, 0 100%);
+}
+/* For laptops */
+@media (max-width: 1440px) {
+  .about-section-1-over {
+    width: 50%;
+    font-size: 22px;
+    
+  }
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .about-section-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .about-section-1-over {
+    width: 80%;
+    font-size: 20px;
+    clip-path: none;
+    height: auto;
+    
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .about-section-1-over {
+    width: 80%;
+    font-size: 18px;
+    padding: 8%;
+  }
 }
 
 .about-section {
@@ -646,6 +682,52 @@ code {
   height: auto;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* For laptops */
+@media (max-width: 1440px) {
+  .about-section {
+    flex-direction: column;
+    padding: 20px 5%;
+  }
+
+  .about-section div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-section img {
+    max-width: 100%;
+  }
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .about-section p {
+    font-size: 14px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 20px 8%;
+  }
+
+  .about-section div {
+    width: 100%;
+  }
+
+  .about-section h3 {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  .about-section img {
+    max-width: 100%;
+  }
 }
 
 
@@ -692,6 +774,39 @@ code {
   transform: scale(1.1);
 }
 
+/* For laptops */
+@media (max-width: 1440px) {
+  .valores-icons-container {
+    width: 50%;
+  }
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .valores-icons-container {
+    width: 70%;
+  }
+
+  .valores-icons-container div h3 {
+    font-size: 14px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .valores-icons-container {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .valores-icons-container div {
+    width: 50%;
+  }
+
+  .valores-icons-container div h3 {
+    font-size: 12px;
+  }
+}
 
 
 /* Footer Styles */
