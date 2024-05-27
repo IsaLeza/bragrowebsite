@@ -641,6 +641,7 @@ height: 70vh;
 /* For mobile devices */
 @media (max-width: 768px) {
   .about-section {
+    flex-direction: column;
     padding: 20px 8%;
   }
 
