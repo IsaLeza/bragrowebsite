@@ -8,6 +8,7 @@ import ServicesScreen from "./screens/ServicesScreen";
 import ServicesDetailedScreen from "./screens/ServiceDetailedScreen";
 import PrivacyPolicyScreen from "./screens/PrivacyPolicyScreen";
 import ThankYouScreen from "./screens/ThankYouScreen";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar></NavBar>
+      <WhatsAppButton></WhatsAppButton>
       <Routes>
         <Route path="/" element={<MainScreen />}></Route>
         <Route path="/about" element={<AboutScreen />}></Route>
@@ -29,6 +31,7 @@ function App() {
         <Route path="/privacypolicy" element={<PrivacyPolicyScreen />}></Route>
       </Routes>
       <Footer></Footer>
+      
     </BrowserRouter>
   )
 }

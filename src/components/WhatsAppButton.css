@@ -1,0 +1,42 @@
+/* WhatsAppButton.css */
+@keyframes heartbeat {
+    from {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .whatsapp-button {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    z-index: 9999;
+    animation: heartbeat 1s infinite; /* Aplica la animación de latido */
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c41;
+    animation: none; /* Detiene la animación cuando el cursor está sobre el botón */
+  }
+  
+  .whatsapp-button .fa-whatsapp {
+    font-size: 3rem;
+  }
+  
