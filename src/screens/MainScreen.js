@@ -1,52 +1,14 @@
 import React, { useEffect, useState } from "react";
 import ReviewCard from "../components/ReviewComponent"
 import reviewsData from "../components/reviews.json";
-import productsData from "../components/products.json";
 import ProductCarousel from "../components/ProductCarousel";
+import Main from "./Main.css"
 
 
 
 
 function MainScreen() {
-    const [currentSlide, setCurrentSlide] = useState(0);
-    const slides = [
-        {
-            text: "Soluciones integrales para la agricultura: Agroquímicos, fertilizantes y más",
-            buttonText: "Quiero ser Distribuidor",
-            image: process.env.PUBLIC_URL + '/media/main-img.png',
-            background: `url(${process.env.PUBLIC_URL}/media/main-1-bg.png)`,
-            width: "70%",
-            display: "flex"
-        },
-        {
-            text: "Aprovecha nuestro servicio con drones",
-            text2: "Contáctanos para hacerte una cotización formal y proteger tus cultivos",
-            buttonText: "Quiero Cotizar",
-            image: process.env.PUBLIC_URL + '/media/dronBRAgro.png',
-            background: `url(${process.env.PUBLIC_URL}/media/background-blue.png)`,
-            width: "100%",
-            display: "flex"
-        },
-        {
-            text: "Triplica tus ingresos con nosotros",
-            text2: "Únete a la red de distribuidores con mayor crecimiento en México, aprovecha los excelentes beneficios que tenemos para ti",
-            buttonText: "Quiero ser Distribuidor",
-            image: process.env.PUBLIC_URL + '/media/DISTRIB.png',
-            background: `url(${process.env.PUBLIC_URL}/media/background-red.png)`,
-            width: '60%',
-            display: "flex"
 
-        },
-
-    ];
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide(currentSlide => (currentSlide + 1) % slides.length);
-        }, 5500); // Change slide every 3.5 seconds
-
-        return () => clearInterval(interval);
-    }, [slides.length]);
 
     const [reviews, setReviews] = useState([]);
 
@@ -57,14 +19,13 @@ function MainScreen() {
 
     return (
         <div>
-            <section className={`main-1 ${currentSlide !== 0 ? 'smooth-transition' : ''}`} style={{ backgroundImage: slides[currentSlide].background, display: slides[currentSlide].display }}>
+            <section className="main-1">
                 <div className="main-1-text">
-                    <h1>{slides[currentSlide].text}</h1>
-                    <h2>{slides[currentSlide].text2}</h2>
-                    <button className="btn-distribuidor">{slides[currentSlide].buttonText}</button>
+                    <h1>Soluciones integrales para la agricultura: Agroquímicos, fertilizantes y más</h1>
+                    <button className="btn-distribuidor">Quiero ser Distribuidor</button>
                 </div>
                 <div className="main-1-img" >
-                    <img src={slides[currentSlide].image} alt="main-1-img" style={{ width: slides[currentSlide].width, height: slides[currentSlide].height }} />
+                    <img src={process.env.PUBLIC_URL + '/media/main-img.png'} alt="main-2-img" />
                 </div>
             </section>
 

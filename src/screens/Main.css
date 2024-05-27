@@ -1,0 +1,82 @@
+/* Base styles */
+.main-1 {
+    background: url(../../public/media/main-1-bg.png) center/cover;
+    padding: 10% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.main-1-text {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.main-1-img {
+    flex: 1;
+    text-align: center;
+}
+
+.main-1-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-1-text h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.btn-distribuidor {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #179847;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-distribuidor:hover {
+    background-color: #12c22f;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .main-1 {
+        flex-direction: column;
+    }
+
+    .main-1-text, .main-1-img {
+        flex: 0 0 auto;
+    }
+
+    .main-1-text, .main-1-img {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .main-1-text h1 {
+        font-size: 2rem;
+    }
+
+    .btn-distribuidor {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-1-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-distribuidor {
+        font-size: 0.9rem;
+    }
+}

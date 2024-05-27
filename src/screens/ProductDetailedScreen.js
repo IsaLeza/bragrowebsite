@@ -79,8 +79,8 @@ const ProductDetailedScreen = () => {
                         {randomProducts.map((randomProduct, index) => (
                             <Link key={index} to={`/product/${randomProduct.id}`} className="product-grid-item">
                                 <img src={randomProduct.image} alt={randomProduct.name} className="grid-product-image" />
-                                <h5>{randomProduct.name}</h5>
-                                <p>{randomProduct.details}</p>
+                                <h5 className='randomh5'>{randomProduct.name}</h5>
+                                <p className='randomp'>{randomProduct.details}</p>
                             </Link>
                         ))}
                     </div>

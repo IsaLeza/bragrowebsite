@@ -44,24 +44,7 @@ const NavBar = () => {
   return (
     <div>
       <div className={`overlay ${menuOpen ? 'overlay-active' : ''}`} onClick={toggleMenu}></div>
-      <div className="top-banner">
-        <div className="top-banner-links-container">
-          <ul className="top-banner-links">
-            <li>
-              <Link to="/" className="">Carreras</Link>
-            </li>
-            <li>
-              <Link to="/" className="">Aviso de Privacidad</Link>
-            </li>
-            <li>
-              <Link to="/" className="">Atención a Distribuidores</Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <button className="btn-distribuidor">Contacto</button>
-        </div>
-      </div>
+
       <nav className="navbar">
         <div>
           <Link to="/">
