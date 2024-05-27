@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
-import products from '../screens/products.json'; // Importing JSON file
+import productsData from '../screens/products.json'; // Importing JSON file
 import { useState } from 'react';
 import Banner from '../components/Banner';
 
@@ -12,21 +12,19 @@ const ProductCard = ({ product }) => {
     });
 
     return (
-        <Link style={{ textDecoration: "none" }} key={product.id} to={`/product/${product.id}`}> {/* Fixed the path here */}
+        <Link style={{ textDecoration: "none" }} key={product.id} to={`/product/${product.id}`}>
             <div ref={ref} className="pscreen-card">
                 {inView && (
                     <>
                         <img src={product.image} alt={product.name} className="pscreen-img" />
-
                     </>
-
                 )}
             </div>
             <div className="pscreen-details">
                 <strong style={{color:"green"}}>{product.name}</strong><br />
                 <strong className='details'>{product.details}</strong>
                 <div className="pscreen-sizes">
-                    <strong style={{marginRight:"4px"}}>Presencatión:</strong>
+                    <strong style={{marginRight:"4px"}}>Presentación:</strong>
                     {product.presentations.map((presentation, index) => (
                         <div key={index}>{presentation.size}</div>
                     ))}
@@ -37,9 +35,7 @@ const ProductCard = ({ product }) => {
                     ))}
                 </div>
             </div>
-
         </Link>
-
     );
 };
 
@@ -50,9 +46,12 @@ function ProductScreen() {
         setVisibleProducts((prevVisibleProducts) => prevVisibleProducts + 12);
     };
 
+    // Ordenar los productos en orden alfabético
+    const products = productsData.sort((a, b) => a.name.localeCompare(b.name));
+
     return (
         <div className="pscreen-container">
-           <Banner></Banner>
+            <Banner></Banner>
             <div className="pscreen-grid">
                 {products.slice(0, visibleProducts).map((product) => (
                     <ProductCard key={product.id} product={product} />
@@ -68,4 +67,3 @@ function ProductScreen() {
 }
 
 export default ProductScreen;
-

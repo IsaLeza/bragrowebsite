@@ -70,16 +70,16 @@ const NavBar = () => {
         </div>
         <ul className={`menu ${menuOpen ? 'menu-open' : ''}`}>
           <li>
-            <Link to="/" className="nav-link" onClick={toggleMenu}>INICIO</Link>
+            <Link to="/" className="nav-link" >INICIO</Link>
           </li>
           <li>
-            <Link to="/about" className="nav-link" onClick={toggleMenu}>NOSOTROS</Link>
+            <Link to="/about" className="nav-link" >NOSOTROS</Link>
           </li>
           <li>
-            <Link to="/products" className="nav-link" onClick={toggleMenu}>PRODUCTOS</Link>
+            <Link to="/products" className="nav-link" >PRODUCTOS</Link>
           </li>
           <li>
-            <Link to="/services" className="nav-link" onClick={toggleMenu}>SERVICIOS</Link>
+            <Link to="/services" className="nav-link" >SERVICIOS</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={toggleMenu}>

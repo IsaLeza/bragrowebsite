@@ -576,6 +576,16 @@
         "image": "../media/mockupsBRAgro/EPAZTRAC.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Extracto de Epazote (Chenopodium glaucum)",
+                "percentage": "30%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "70%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -605,6 +615,52 @@
         "image": "../media/mockupsBRAgro/EXTRAMINO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Aminoácidos",
+        "composition": [
+            {
+                "component": "Guanina",
+                "percentage": "800 ppm"
+            },
+            {
+                "component": "Metionina",
+                "percentage": "900 ppm"
+            },
+            {
+                "component": "Arginina",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Ácido aspártico",
+                "percentage": "1500 ppm"
+            },
+            {
+                "component": "Ácido glutámico",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "13%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Fierro quelatado",
+                "percentage": "10%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "15%"
+            },
+            {
+                "component": "Nitrógeno",
+                "percentage": "25%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML.",
@@ -639,6 +695,20 @@
         "image": "../media/mockupsBRAgro/FOLINITRO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "40%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Ácido glutámico",
+                "percentage": "400 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -660,6 +730,16 @@
                 "packaging": "1 Garrafa",
                 "price": "3461"
             }
+        ],
+        "mode_of_use": [
+            {
+                "method": "Inyectado por riego",
+                "dose": "0,5 L/200L de agua"
+            },
+            {
+                "method": "Drench",
+                "dose": "5 L/200L de agua"
+            }
         ]
     },
     {
@@ -668,6 +748,20 @@
         "image": "../media/mockupsBRAgro/FULLHUMICS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Ácidos húmicos y fúlvicos derivados de leonardita",
+        "composition": [
+            {
+                "component": "Sustancias Húmicas derivadas de leonardita",
+                "percentage": "50%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "17%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "33%"
+            }
+        ],
         "presentations": [
             {
                 "size": "25KG",
@@ -682,6 +776,20 @@
         "image": "../media/mockupsBRAgro/PEROXIGREEN M01.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fungicida y Bactericida de amplio espectro",
+        "composition": [
+            {
+                "component": "Peróxido de Hidrógeno",
+                "percentage": "32%"
+            },
+            {
+                "component": "ácido Peroxiacético",
+                "percentage": "8%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "60%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -711,6 +819,44 @@
         "image": "../media/mockupsBRAgro/DELUX POTASIO M.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Nutriente foliar potenciado con aminoácidos y microelementos",
+        "composition": [
+            {
+                "component": "Potasio",
+                "percentage": "45%"
+            },
+            {
+                "component": "L - Aminoácidos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Hierro (Fe)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "25%"
+            }
+        ],
         "presentations": [
             {
                 "size": "100GR",
@@ -730,6 +876,16 @@
         "image": "../media/mockupsBRAgro/GLUTAMASTER.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Ácido glutámico",
+        "composition": [
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "98%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "2%"
+            }
+        ],
         "presentations": [
             {
                 "size": "150GR",
@@ -749,6 +905,20 @@
         "image": "../media/mockupsBRAgro/KUPEWA.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Insecticida y acaracida",
+        "composition": [
+            {
+                "component": "Sales potásicas de ácidos grasos",
+                "percentage": "60%"
+            },
+            {
+                "component": "Diluyentes Inertes",
+                "percentage": "25%"
+            },
+            {
+                "component": "Acondicionadores y Surfactantes",
+                "percentage": "15%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -778,6 +948,29 @@
         "image": "../media/mockupsBRAgro/MASTER CALCIO BZN.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fuente de boro, calcio y zinc",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "3%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "78%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -807,6 +1000,37 @@
         "image": "../media/mockupsBRAgro/MASTER CALCIO RIEGO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante",
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Calcio asimilable",
+                "percentage": "40%%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Giberelinas",
+                "percentage": "5700 ppm"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "6000 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "46%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",

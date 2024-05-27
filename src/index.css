@@ -1069,64 +1069,192 @@ nav ul li a:hover {
   gap: 16px;
 }
 
-/*DETAILED SCREEN*/
-
-/* Añade estilos adicionales según sea necesario */
+/* General Layout */
 .product-screen {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 0 8%;
-}
-
-.product-info {
-  flex: 1;
-  padding-right: 20px; /* Add padding to create space between image and text */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    padding: 2% ;
+    color: #333;
+    font-family: 'Arial', sans-serif;
   
 }
 
+.product-info {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 100%;
+}
+
 .product-image {
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #16a085;
+    margin-bottom: 20px;
+}
+
+.product-section {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+h4 {
+    color: #2980b9;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #16a085;
+    padding-bottom: 10px;
+}
+
+.product-composition, .product-presentations {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-composition-item, .product-presentation-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    color: #2c3e50;
+    transition: background-color 0.3s ease;
+}
+
+.product-composition-item:hover, .product-presentation-item:hover {
+    background-color: #d0dce0;
+}
+
+.component-name, .presentation-size {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.component-amount, .presentation-packaging, .presentation-price {
+    color: #16a085;
+    font-weight: bold;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding:  5%;
+  gap: 20px;
+}
+
+.product-grid-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.grid-product-image {
   width: auto;
-  height: 500px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-.product-table-container {
-  flex: 1;
+h5 {
+  color: #2c3e50;
+  margin: 10px 0;
 }
 
-.product-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px; /* Increase margin for better separation */
+p {
+  color: #16a085;
+  margin-bottom: 10px;
 }
 
-.product-table th,
-.product-table td {
-  border: 1px solid #ddd;
-  padding: 12px; /* Increase padding for better readability */
-  text-align: left;
+/* Media Queries */
+@media (max-width: 1024px) {
+  .product-screen {
+      padding: 2% 4%;
+      flex-direction: column;
+  }
+
+  .product-image {
+      height: 300px;
+  }
+
+  .product-section {
+      padding: 15px;
+  }
+
+  .product-composition-item, .product-presentation-item {
+      padding: 10px 15px;
+  }
+
+  .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-product-image {
+      height: 150px;
+  }
 }
 
-.product-table th {
-  background-color: #f2f2f2;
-}
+@media (max-width: 768px) {
+  .product-screen {
+      padding: 2% 5%;
+  }
 
-.whatsapp-button {
-  display: flex;
-  align-items: center;
-}
+  .product-info {
+      margin-bottom: 30px;
+  }
 
-.whatsapp-button button {
-  padding: 12px 24px; /* Increase padding for better button appearance */
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
-}
+  .product-image {
+      height: 250px;
+  }
 
-.whatsapp-button button:hover {
-  background-color: darkgreen;
+  .product-section {
+      padding: 10px;
+  }
+
+  .product-composition-item, .product-presentation-item {
+      padding: 10px;
+  }
+
+  .product-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .grid-product-image {
+      height: 150px;
+  }
+
+  h2, h3 {
+      font-size: 1.2em;
+  }
+
+  h4 {
+      font-size: 1em;
+  }
 }

@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'; // Import useParams from react-router-dom
-import products from './products.json'; // Import the JSON file from the same folder
+import { useParams, Link, useLocation } from 'react-router-dom';
+import products from './products.json';
+import { Fade } from 'react-awesome-reveal';
 
 const ProductDetailedScreen = () => {
     const [product, setProduct] = useState(null);
-    const { id } = useParams(); // Get the id parameter from the URL
+    const { id } = useParams();
+    const location = useLocation();
 
     useEffect(() => {
-        // Find the product with the matching id from the URL params
         const selectedProduct = products.find(prod => prod.id === id);
 
         if (selectedProduct) {
@@ -15,62 +16,76 @@ const ProductDetailedScreen = () => {
         } else {
             console.error(`Product with id ${id} not found`);
         }
-    }, [id]); // Re-run effect when id changes
+
+        // Scroll to top when route changes
+        window.scrollTo(0, 0);
+    }, [id, location]);
 
     if (!product) {
         return <p>No product found</p>;
     }
 
-    // Destructure product object properties
-    const { image, name, details, category, presentations, composition } = product;
+    const getRandomProducts = () => {
+        let shuffled = products.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, 4);
+    };
+
+    const randomProducts = getRandomProducts();
+
+    const { image, name, details, presentations, composition } = product;
 
     return (
-        <div className="product-screen">
-            <div className="product-info">
-                <img src={image} alt={name} className="product-image" />
-                <h2>{name}</h2>
-                <h3>{details}</h3>
+        <div>
+            <div className="product-screen">
+                <Fade>
+                    <div className="product-info">
+                        <img src={image} alt={name} className="product-image" />
+                        <h2>{name}</h2>
+                        <h3>{details}</h3>
+                    </div>
+                </Fade>
+                <Fade>
+                    <div className="product-section">
+                        <h4>Composición</h4>
+                        <div className="product-composition">
+                            {composition && composition.map((component, index) => (
+                                <div key={index} className="product-composition-item">
+                                    <span className="component-name">{component.component}</span>
+                                    <span className="component-amount">{component.percentage}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </Fade>
+                <Fade>
+                    <div className="product-section">
+                        <h4>Presentaciones</h4>
+                        <div className="product-presentations">
+                            {presentations && presentations.map((presentation, index) => (
+                                <div key={index} className="product-presentation-item">
+                                    <span className="presentation-size">{presentation.size}</span>
+                                    <span className="presentation-packaging">{presentation.packaging}</span>
+                                    <span className="presentation-price">${presentation.price}.00</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </Fade>
             </div>
-            <div className="product-table-container">
-                <table className="product-table">
-                    <thead>
-                        <tr>
-                            <th>Component</th>
-                            <th>Percentage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {/* Check if composition array is defined */}
-                        {composition && composition.map((component, index) => (
-                            <tr key={index}>
-                                <td>{component.component}</td>
-                                <td>{component.percentage}</td>
-                            </tr>
+            <Fade>
+                <div className="product-section">
+                    <h4>Otros productos</h4>
+                    <div className="product-grid">
+                        {randomProducts.map((randomProduct, index) => (
+                            <Link key={index} to={`/product/${randomProduct.id}`} className="product-grid-item">
+                                <img src={randomProduct.image} alt={randomProduct.name} className="grid-product-image" />
+                                <h5>{randomProduct.name}</h5>
+                                <p>{randomProduct.details}</p>
+                            </Link>
                         ))}
-                    </tbody>
-                </table>
-            </div>
-            <div className="product-table-container">
-                <table className="product-table">
-                    <thead>
-                        <tr>
-                            <th>Presentación</th>
-                            <th>Empaquetado</th>
-                            <th>Precio</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {/* Check if presentations array is defined */}
-                        {presentations && presentations.map((presentation, index) => (
-                            <tr key={index}>
-                                <td>{presentation.size}</td>
-                                <td>{presentation.packaging}</td>
-                                <td>${presentation.price}.00</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
+                    </div>
+                </div>
+            </Fade>
         </div>
     );
 }
