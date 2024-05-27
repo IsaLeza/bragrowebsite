@@ -25,7 +25,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetailedScreen />} />
 
 
-        <Route path="/services" element={<ServicesScreen />}></Route>
+        <Route path="/distribuidores" element={<ServicesScreen />}></Route>
         <Route path="/services:id" element={<ServicesDetailedScreen />}></Route>
         <Route path="/thankyou" element={<ThankYouScreen />}></Route>
         <Route path="/privacypolicy" element={<PrivacyPolicyScreen />}></Route>
@@ -65,7 +65,7 @@ const NavBar = () => {
             <Link to="/products" className="nav-link" >PRODUCTOS</Link>
           </li>
           <li>
-            <Link to="/services" className="nav-link" >SERVICIOS</Link>
+            <Link to="/distribuidores" className="nav-link" >DISTRIBUIDORES</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={toggleMenu}>
