@@ -543,8 +543,9 @@ height: 70vh;
 /* For laptops */
 @media (max-width: 1440px) {
   .about-section-1-over {
-    width: 50%;
-    font-size: 22px;
+    width: 80%;
+    font-size: 18px;
+    padding-right: 10%;
     
   }
 }
@@ -615,8 +616,8 @@ height: 70vh;
 /* For laptops */
 @media (max-width: 1440px) {
   .about-section {
-    flex-direction: column;
     padding: 20px 5%;
+    gap: 1.5rem;
   }
 
   .about-section div {
@@ -625,13 +626,14 @@ height: 70vh;
   }
 
   .about-section img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
 /* For tablets */
 @media (max-width: 1024px) {
   .about-section p {
+    flex-direction: column;
     font-size: 14px;
   }
 }
@@ -651,7 +653,7 @@ height: 70vh;
   }
 
   .about-section p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .about-section img {

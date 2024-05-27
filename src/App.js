@@ -91,7 +91,6 @@ const Footer = () => {
           <li><Link to="/about">NOSOTROS</Link></li>
           <li><Link to="/products">PRODUCTOS</Link></li>
           <li><Link to="/distribuidores">DISTRIBUIDORES</Link></li>
-          <li><Link to="/servicios">SERVICIOS</Link></li>
         </ul>
       </nav>
       <div className="contact-info">
