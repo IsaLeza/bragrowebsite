@@ -1087,7 +1087,6 @@ nav ul li a:hover {
     padding: 20px;
     border-radius: 10px;
 
-    width: 100%;
 }
 
 .product-image {
@@ -1109,7 +1108,7 @@ h3 {
 }
 
 .product-section {
-    width: 100%;
+  
     margin-bottom: 40px;
     padding: 20px;
     background-color: transparent;
@@ -1235,7 +1234,7 @@ p {
   }
 
   .product-section {
-      padding: 10px;
+      
   }
 
   .product-composition-item, .product-presentation-item {
