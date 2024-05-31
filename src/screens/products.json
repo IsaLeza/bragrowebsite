@@ -1070,6 +1070,24 @@
         "image": "../media/mockupsBRAgro/MASTER ORGANIC.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Complejo orgánico fulvato",
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "35%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "45%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1109,6 +1127,24 @@
         "image": "../media/mockupsBRAgro/MASTER PROTEC.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Desinfectante y sanitizante",
+        "composition": [
+            {
+                "component": "Cuaternario de Amonio",
+                "percentage": "46.5%"
+            },
+            {
+                "component": "Sulfato de Cobre Pentahidratado",
+                "percentage": "20%"
+            },
+            {
+                "component": "Coadyuvantes",
+                "percentage": "5%"
+            },
+            {
+                "component": "Diluyentes acuosos, c.s.p.",
+                "percentage": "28.5%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1138,6 +1174,20 @@
         "image": "../media/mockupsBRAgro/MAX FE.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Fierro",
+                "percentage": "50 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "30 000 ppm%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "92%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1167,6 +1217,34 @@
         "image": "../media/mockupsBRAgro/RENDIFLOR.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Complejo metabólico para floración",
+        
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "20%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "42%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1196,6 +1274,49 @@
         "image": "../media/mockupsBRAgro/2.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Nutriente foliar en polvo soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Potasio Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "10 000 ppm"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "100GR",
@@ -1215,6 +1336,32 @@
         "image": "../media/mockupsBRAgro/MAXI ENGORDE.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizantee foliar",
+        "composition": [
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "49%"
+            },
+            {
+                "component": "Nitrato (NO3)",
+                "percentage": "27%"
+            },
+            {
+                "component": "Fe Quelato",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "8%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1254,6 +1401,40 @@
         "image": "../media/mockupsBRAgro/BIOARRANKE-824.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Arrancador",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "24.6%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "7.78%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "0.04"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "0.06%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.65%"
+            },
+            {
+                "component": "Aditivos y Potencializadores",
+                "percentage": "58.65%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1293,6 +1474,40 @@
         "image": "../media/mockupsBRAgro/BIOTEK-MICROS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Azufre (S)",
+                "percentage": "4%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.04%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "0.04%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "3%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.25%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "4%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1322,6 +1537,32 @@
         "image": "../media/mockupsBRAgro/FORTIGREEN.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "19%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "19%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "800 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "43%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1351,6 +1592,32 @@
         "image": "../media/mockupsBRAgro/GIBFRUTAL.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Llenador de frutos",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "1.7%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "10%"
+            },
+            {
+                "component": "Silicio (Si)",
+                "percentage": "40%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "5%"
+            },
+            {
+                "component": "Promotores Hormonales",
+                "percentage": "5000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "13.5%"
+            }
+        ],
         "presentations": [
             {
                 "size": "100G",
@@ -1375,6 +1642,17 @@
         "image": "../media/mockupsBRAgro/MAS ZINC.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Azufre (S)",
+                "percentage": "45 g/L"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 g/L"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1404,6 +1682,40 @@
         "image": "../media/mockupsBRAgro/MAXI MASTER.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de crecimiento",
+        "composition": [
+            {
+                "component": "Giberelinas",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.14%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "0.44%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.30%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "0.49%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.12%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -1433,6 +1745,28 @@
         "image": "../media/mockupsBRAgro/NEMABIT.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Nematicida orgánico",
+        "composition": [
+            {
+                "component": "Extractos Naturales",
+                "percentage": "40%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Promotores Hormonales",
+                "percentage": "5%"
+            },
+            {
+                "component": "Conservadores y Diluyentes",
+                "percentage": "35%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1468,10 +1802,32 @@
     },
     {
         "id": "35",
-        "name": "NUTRIBAC",
+        "name": "NITROBAC",
         "image": "../media/mockupsBRAgro/NITROBAC1.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fuente de nitrógeno",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "45%"
+            },
+            {
+                "component": "Fierro EDTA",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -1491,6 +1847,20 @@
         "image": "../media/mockupsBRAgro/NUTRIX 17.17.17.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "17%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "17%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "17%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1520,6 +1890,33 @@
         "image": "../media/mockupsBRAgro/POTAXION K.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Nutriente foliar enriquecido con potasio y aminoácidos",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "24%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "40%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Citocininas",
+                "percentage": "600 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "19%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1544,6 +1941,57 @@
         "image": "../media/mockupsBRAgro/POWER BAT.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Guano de murciélago",
+        "composition": [
+            {
+                "component": "Fierro",
+                "percentage": "600 ppm"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "25 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "4000 ppm"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "1200 ppm"
+            },
+            {
+                "component": "Nitrógeno",
+                "percentage": "2400 ppm"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "3100 ppm"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "900 ppm"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "120 ppm"
+            },
+            {
+                "component": "Materia Orgánica",
+                "percentage": "7800 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 ppm"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1563,6 +2011,25 @@
         "image": "../media/mockupsBRAgro/QUATER SUPREME.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Bactericida y desinfectante",
+        "composition": [
+            {
+                "component": "Cloruro de N-aquil",
+                "percentage": "25%"
+            },
+            {
+                "component": "Carbamidas",
+                "percentage": "30%"
+            },
+            {
+                "component": "Diuyentes",
+                "percentage": "33%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "12%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1592,6 +2059,12 @@
         "image": "../media/mockupsBRAgro/QUELTEX FE.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Quelato de alto rendimiento",
+        "composition": [
+            {
+                "component": "Hierro (Fe EDDHA) Estabilidad en pH 4 a 10",
+                "percentage": "6%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -1606,6 +2079,28 @@
         "image": "../media/mockupsBRAgro/RADICREX.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Estimulador de raíces",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "20%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "20 000 ppm"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "1700 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "800 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -1650,6 +2145,28 @@
         "image": "../media/mockupsBRAgro/RADIKON.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "2800 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "1000 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -1694,6 +2211,44 @@
         "image": "../media/mockupsBRAgro/RAIXEN PLUS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "1500 ppm"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Silicio (Si)",
+                "percentage": "80000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "200 ppm"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "50 ppm"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "50 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "100GR",
@@ -1718,6 +2273,21 @@
         "image": "../media/mockupsBRAgro/RPH PLUS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de PH",
+        "composition": [
+            {
+                "component": "Alcohol Tridecílico Polioxietilénico",
+                "percentage": "40%"
+            },
+            {
+                "component": "Ácido Fosfórico",
+                "percentage": "20%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "40%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -1752,6 +2322,36 @@
         "image": "../media/mockupsBRAgro/RUSTIMAX.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Complejo de fitohormonas naturales, vitaminas y activadores metabólicos",
+        "composition": [
+            {
+                "component": "Citocininas",
+                "percentage": "22000 ppm"
+            },
+            {
+                "component": "Giberelinas",
+                "percentage": "10g"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "22g"
+            },
+            {
+                "component": "Ácido Pantoténico",
+                "percentage": "10000 ppm"
+            },
+            {
+                "component": "Niacina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Tlamina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "1000 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "10G",
@@ -1776,6 +2376,24 @@
         "image": "../media/mockupsBRAgro/SALT MOVER.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Desalinizador y descompactador de suelos",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "16%"
+            },
+            {
+                "component": "Ácidos Orgánicos",
+                "percentage": "20%"
+            },
+            {
+                "component": "Ácidos Carboxílicos",
+                "percentage": "20%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "44%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1805,6 +2423,16 @@
         "image": "../media/mockupsBRAgro/SOYER PLUS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Coadyuvante Agroquímico",
+        "composition": [
+            {
+                "component": "Aceite Vegetal de Soya",
+                "percentage": "93%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "7%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1824,6 +2452,20 @@
         "image": "../media/mockupsBRAgro/SUPERGIB.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de crecimiento vegetal",
+        "composition": [
+            {
+                "component": "Giberelina",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "80%"
+            }
+        ],
         "presentations": [
             {
                 "size": "10G",
@@ -1843,6 +2485,16 @@
         "image": "../media/mockupsBRAgro/UNIBORO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Boro (B)",
+                "percentage": "9%"
+            },
+            {
+                "component": "Acondicionadores Diluyentes y Elementos Relacionados",
+                "percentage": "91%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1862,6 +2514,20 @@
         "image": "../media/mockupsBRAgro/XTREME K.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fuente de Potasio",
+        "composition": [
+            {
+                "component": "Potasio",
+                "percentage": "25%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "65%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1876,6 +2542,16 @@
         "image": "../media/mockupsBRAgro/YUCATECH.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Mejorador y descompactador de suelos",
+        "composition": [
+            {
+                "component": "Extractos de Yucca Shidigera",
+                "percentage": "90%"
+            },
+            {
+                "component": "Óxidos de Alcanos copolimerizados",
+                "percentage": "10%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1895,6 +2571,20 @@
         "image": "../media/mockupsBRAgro/ZUCKER MOB.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Boro y molibdeno",
+        "composition": [
+            {
+                "component": "Molibdeno",
+                "percentage": "9%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "1%"
+            },
+            {
+                "component": "Acondicionadores y Diluyentes",
+                "percentage": "90%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -1919,6 +2609,32 @@
         "image": "../media/mockupsBRAgro/ALMATINA-M1.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Extracto de algas marinas",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "1.35%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "17%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.33%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "1.20%"
+            },
+            {
+                "component": "Extracto de Algas Marinas",
+                "percentage": "47%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "33.12%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -1933,6 +2649,28 @@
         "image": "../media/mockupsBRAgro/ULTRACIT 250 ML.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de crecimiento",
+        "composition": [
+            {
+                "component": "Complejo de Citocininas",
+                "percentage": "15 800 ppm"
+            },
+            {
+                "component": "Complejo Vitamínico",
+                "percentage": "1%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "1%"
+            },
+            {
+                "component": "Aminoácidos Libres",
+                "percentage": "25%"
+            },
+            {
+                "component": "Acondicionadores e Inertes",
+                "percentage": "71.88%"
+            }
+        ],
         "presentations": [
             {
                 "size": "100GR",
@@ -1947,6 +2685,28 @@
         "image": "../media/mockupsBRAgro/HIPEROOT.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "11%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "55%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "0.30%"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "0.03%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "6%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1KG",
@@ -1961,6 +2721,28 @@
         "image": "../media/mockupsBRAgro/BIOACTIVOGD.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Biorregulador",
+        "composition": [
+            {
+                "component": "Giberelina",
+                "percentage": "3081 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "310 ppm"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "98.9%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -1975,6 +2757,16 @@
         "image": "../media/mockupsBRAgro/PINAFULL.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de crecimiento vegetal",
+        "composition": [
+            {
+                "component": "Sodio 2 (3-clorofenoxiapropionato) No menos de:(equivalente a 75g de i.a./L)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "92%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -2004,6 +2796,20 @@
         "image": "../media/mockupsBRAgro/MAGNO BION MG.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fuente de magnesio",
+        "composition": [
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "6%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "1%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "93%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -2028,6 +2834,20 @@
         "image": "../media/mockupsBRAgro/VIRUSTAN.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Regulador de Crecimiento tipo 2",
+        "composition": [
+            {
+                "component": "Antioxidantes",
+                "percentage": "4%"
+            },
+            {
+                "component": "Complejo Hormonal",
+                "percentage": "1%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "95%"
+            }
+        ],
         "presentations": [
             {
                 "size": "1L",
@@ -2057,6 +2877,16 @@
         "image": "../media/mockupsBRAgro/KILLEG.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Insecticida Acaricida",
+        "composition": [
+            {
+                "component": "Dioctil Sulfosuccianato de Sodio (Equivalente a 757.74 gr i.a/L A 20°C)",
+                "percentage": "70%"
+            },
+            {
+                "component": "Diluyente",
+                "percentage": "30%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -2076,6 +2906,12 @@
         "image": "../media/mockupsBRAgro/VERWET.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Coadyuvante Agrícola No Iónico",
+        "composition": [
+            {
+                "component": "Poliester-Polimeltilsoloxano Copolimero (Equivalente a 1019.21 gr de i.a/L)",
+                "percentage": "100%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -2110,6 +2946,16 @@
         "image": "../media/mockupsBRAgro/KUCOB.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fungicida - Bactericida",
+        "composition": [
+            {
+                "component": "Gluconato de Cobre (Equivalente a 264.8 g.i.a/L a 20°C)",
+                "percentage": "25%"
+            },
+            {
+                "component": "Coadyuvantes y Diluyentes",
+                "percentage": "75%"
+            }
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -2129,6 +2975,25 @@
         "image": "../media/mockupsBRAgro/DISPERXIC 250 ML.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Dispersante",
+        "composition": [
+            {
+                "component": "Alcohol Tridecílico Polioxietilénico",
+                "percentage": "20.2%"
+            },
+            {
+                "component": "Nonilfenol Polioxietilenado",
+                "percentage": "5.2%"
+            },
+            {
+                "component": "Propilenglicol",
+                "percentage": "5.5%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "69.1%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "250ML",
@@ -2157,26 +3022,14 @@
             }
         ]
     },
-    {
-        "id": "64",
-        "name": "ZUTREC",
-        "image": "../media/mockupsBRAgro/ZUTREC.png",
-        "category": "CATEGORIA BR AGRO",
-        "details": "Fertilizante orgánico",
-        "presentations": [
-            {
-                "size": "1L",
-                "packaging": "N/A",
-                "price": "N/A"
-            }
-        ]
-    },
+    
     {
         "id": "65",
         "name": "BR PACK",
         "image": "../media/mockupsBRAgro/BR PACK.png",
         "category": "CATEGORIA BR AGRO",
-        "details": "Fertilizante orgánico",
+        "details": "Diseñado para brindar a tus cultivos l amejor biotecnología CULTIVOS: Maíz, Arroz, Avena, Cebada, Sorgo, Trigo, Soya, Alfalfa, Garbanzo, Frijol, Caña",
+        
         "presentations": [
             {
                 "size": "Desarrollo",
@@ -2196,6 +3049,28 @@
         "image": "../media/mockupsBRAgro/AGAVE-ENRAIZADOR.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "2800 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "1000 ppm"
+            }
+        ],
         "presentations": [
             {
                 "size": "Pack",
@@ -2210,6 +3085,73 @@
         "image": "../media/mockupsBRAgro/AGAVE-DESARROLLO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "1%"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.02%"
+            },
+            {
+                "component": "Hierro (Fe)",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2000 ppm"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "Pack",
@@ -2224,6 +3166,36 @@
         "image": "../media/mockupsBRAgro/AGAVE LLENADO.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "49%"
+            },
+            {
+                "component": "Nitrato (NO3)",
+                "percentage": "27%"
+            },
+            {
+                "component": "Fe Quelato",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "8%"
+            }
+        ],
         "presentations": [
             {
                 "size": "Pack",
@@ -2238,6 +3210,37 @@
         "image": "../media/mockupsBRAgro/AGAVE ANTIESTRÉS.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "16%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "10%"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "53%"
+            }
+
+        ],
         "presentations": [
             {
                 "size": "Pack",
