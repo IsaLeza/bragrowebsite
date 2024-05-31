@@ -3,6 +3,7 @@ import ReviewCard from "../components/ReviewComponent";
 import reviewsData from "../components/reviews.json";
 import ProductCarousel from "../components/ProductCarousel";
 import Main from "./Main.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function MainScreen() {
     const [reviews, setReviews] = useState([]);
@@ -12,7 +13,7 @@ function MainScreen() {
     }, []);
 
     const handleWhatsAppClick = (message) => {
-        const phoneNumber = ""; // Replace with your WhatsApp phone number
+        const phoneNumber = "522228519806"; // Replace with your WhatsApp phone number
         const encodedMessage = encodeURIComponent(message);
         const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
         window.open(url, "_blank");
@@ -24,8 +25,8 @@ function MainScreen() {
                 <div className="main-1-text">
                     <h1>Soluciones integrales para la agricultura: Agroquímicos, fertilizantes y más</h1>
                     <h2>Se parte de la Red de Distribuidores con mayor crecimiento en México</h2>
-                    <button 
-                        className="btn-distribuidor" 
+                    <button
+                        className="btn-distribuidor"
                         onClick={() => handleWhatsAppClick("Quiero ser Distribuidor")}
                     >
                         Quiero ser Distribuidor
@@ -45,13 +46,14 @@ function MainScreen() {
                         <h2>Nuestro compromiso con el campo mexicano ofreciendo productos de calidad a los agricultores.</h2>
                         <p>En BR Agro, nos especializamos en proporcionar una amplia gama de productos agroquímicos innovadores y eficaces, diseñados específicamente para satisfacer las necesidades de los agricultores en todo México. Trabajamos incansablemente para ofrecer soluciones que ayuden a proteger y mejorar la productividad de los cultivos, brindando a nuestros clientes la confianza y la tranquilidad que necesitan para prosperar en el campo.</p>
                         <div className="btn-container">
-                            <button 
-                                className="btn-distribuidor"
-                                onClick={() => handleWhatsAppClick("Estoy interesado en conocer sus productos")}
-                            >
-                                Productos
-                            </button>
-                            <button 
+                            <Link to="/products">
+                                <button
+                                    className="btn-distribuidor"
+
+                                >
+                                    Productos
+                                </button></Link>
+                            <button
                                 className="btn-distribuidor"
                                 onClick={() => handleWhatsAppClick("Quiero saber más sobre los Distribuidores Autorizados")}
                             >
@@ -82,7 +84,10 @@ function MainScreen() {
                     <h2>Productos Destacados</h2>
                     <p>Descubre nuestra variedad de productos</p>
                 </div>
-                <ProductCarousel />
+                <Link to="/products">
+                    <ProductCarousel />
+                </Link>
+
             </section>
         </div>
     );

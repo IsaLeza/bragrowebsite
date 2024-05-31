@@ -1,28 +1,28 @@
 {
     "reviews": [
         {
-            "nombre": "Miguel Huerta Fernández",
+            "nombre": "Miguel H.",
             "foto_perfil": "/media/1.png",
             "review": "¡Excelente producto! Me ha ayudado mucho en mi cultivo.",
             "fecha": "Marzo 2024",
             "rating": 5
         },
         {
-            "nombre": "Uriel Carrera",
+            "nombre": "Uriel C.",
             "foto_perfil": "/media/3.png",
             "review": "Los productos son de calidad, cumplen con su función",
             "fecha": "Febrero 2024",
             "rating": 4
         },
         {
-            "nombre": "Pedro García",
+            "nombre": "Juan Manuel P.",
             "foto_perfil": "/media/2.png",
             "review": "Buena experiencia de compra, entrega rápida y producto en perfecto estado.",
             "fecha": "Enero 2024",
             "rating": 4
         },
         {
-            "nombre": "Carlos Gutierrez",
+            "nombre": "Carlos G.",
             "foto_perfil": "/media/sandiero.png",
             "review": "La verdad tenía mis dudas pero me animé, antes no la conocían aquí en Baja California pero poco a poco los productores están probando y les está gustando",
             "fecha": "Enero 2024",

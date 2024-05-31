@@ -4,11 +4,13 @@ import MainScreen from "./screens/MainScreen";
 import AboutScreen from "./screens/AboutScreen";
 import ProductScreen from "./screens/ProductsScreen"
 import ProductDetailedScreen from "./screens/ProductDetailedScreen";
-import ServicesScreen from "./screens/ServicesScreen";
+import ServicesScreen from "./screens/DistribuidoresScreen";
 import ServicesDetailedScreen from "./screens/ServiceDetailedScreen";
 import PrivacyPolicyScreen from "./screens/PrivacyPolicyScreen";
 import ThankYouScreen from "./screens/ThankYouScreen";
 import WhatsAppButton from "./components/WhatsAppButton";
+import ScrollToTop from "./components/ScrollToTop";
+import DistribuidoresScreen from "./screens/DistribuidoresScreen";
 
 
 
@@ -16,6 +18,7 @@ import WhatsAppButton from "./components/WhatsAppButton";
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <NavBar></NavBar>
       <WhatsAppButton></WhatsAppButton>
       <Routes>
@@ -23,11 +26,7 @@ function App() {
         <Route path="/about" element={<AboutScreen />}></Route>
         <Route path="/products" element={<ProductScreen />}></Route>
         <Route path="/product/:id" element={<ProductDetailedScreen />} />
-
-
-        <Route path="/distribuidores" element={<ServicesScreen />}></Route>
-        <Route path="/services:id" element={<ServicesDetailedScreen />}></Route>
-        <Route path="/thankyou" element={<ThankYouScreen />}></Route>
+        <Route path="/distribuidores" element={<DistribuidoresScreen />}></Route>
         <Route path="/privacypolicy" element={<PrivacyPolicyScreen />}></Route>
       </Routes>
       <Footer></Footer>
@@ -44,6 +43,10 @@ const NavBar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div>
       <div className={`overlay ${menuOpen ? 'overlay-active' : ''}`} onClick={toggleMenu}></div>
@@ -56,16 +59,16 @@ const NavBar = () => {
         </div>
         <ul className={`menu ${menuOpen ? 'menu-open' : ''}`}>
           <li>
-            <Link to="/" className="nav-link" >INICIO</Link>
+            <Link to="/" className="nav-link" onClick={closeMenu}>INICIO</Link>
           </li>
           <li>
-            <Link to="/about" className="nav-link" >NOSOTROS</Link>
+            <Link to="/about" className="nav-link" onClick={closeMenu}>NOSOTROS</Link>
           </li>
           <li>
-            <Link to="/products" className="nav-link" >PRODUCTOS</Link>
+            <Link to="/products" className="nav-link" onClick={closeMenu}>PRODUCTOS</Link>
           </li>
           <li>
-            <Link to="/distribuidores" className="nav-link" >DISTRIBUIDORES</Link>
+            <Link to="/distribuidores" className="nav-link" onClick={closeMenu}>DISTRIBUIDORES</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={toggleMenu}>
@@ -116,7 +119,6 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <p>&copy; {new Date().getFullYear()} BR Agro. Todos los derechos reservados.</p>
-        <p><Link style={{ textDecoration: "none", color: "#fff" }} to="/terminos-y-condiciones">Términos y Condiciones</Link>{' | '}<Link style={{ textDecoration: "none", color: "#fff" }} to={"/aviso-de-privacidad"}>Aviso de Privacidad</Link></p>
       </div>
       <div>
         <p>Sitio Web desarrollado por <a style={{ textDecoration: "none", color: "#fff" }} href="https://www.isasoft.com.mx">isaSoft</a></p>

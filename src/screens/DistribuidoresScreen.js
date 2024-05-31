@@ -1,6 +1,6 @@
 import React from "react";
 
-function ServicesScreen(){
+function DistribuidoresScreen(){
     return(
         <div>
             Distribuidores Screen Under Construction
@@ -8,4 +8,4 @@ function ServicesScreen(){
     )
 }
 
-export default ServicesScreen;
+export default DistribuidoresScreen;
