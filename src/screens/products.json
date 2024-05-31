@@ -61,7 +61,7 @@
             },
             {
                 "component": "Aminoácidos",
-                "percentage": "35%%"
+                "percentage": "35%"
             },
             {
                 "component": "Algas marinas",
@@ -79,9 +79,9 @@
         ],
         "presentations": [
             {
-                "size": "4L",
+                "size": "3.5L",
                 "packaging": "1 cubeta",
-                "price": 627
+                "price": 608
             }
         ]
     },
@@ -1007,7 +1007,7 @@
             },
             {
                 "component": "Calcio asimilable",
-                "percentage": "40%%"
+                "percentage": "40%"
             },
             {
                 "component": "Zinc (Zn)",
