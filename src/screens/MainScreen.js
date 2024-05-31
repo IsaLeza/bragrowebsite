@@ -46,7 +46,7 @@ function MainScreen() {
                         <h2>Nuestro compromiso con el campo mexicano ofreciendo productos de calidad a los agricultores.</h2>
                         <p>En BR Agro, nos especializamos en proporcionar una amplia gama de productos agroquímicos innovadores y eficaces, diseñados específicamente para satisfacer las necesidades de los agricultores en todo México. Trabajamos incansablemente para ofrecer soluciones que ayuden a proteger y mejorar la productividad de los cultivos, brindando a nuestros clientes la confianza y la tranquilidad que necesitan para prosperar en el campo.</p>
                         <div className="btn-container">
-                            <Link to="/products">
+                            <Link to="/products" className="btn-dist-cont">
                                 <button
                                     className="btn-distribuidor"
 
