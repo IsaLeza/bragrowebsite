@@ -52,7 +52,7 @@ function DistribuidoresScreenCopy() {
             <div key={index} className="distribuidor-item">
               <h3>{distribuidor.nombre}</h3>
               <p>{distribuidor.estado}</p>
-              <p>Tel: <a style={{color:"green", fontWeight:"bold"}} href="tel:{distribuidor.telefono}">{distribuidor.telefono}</a></p>
+              <p style={{color:"green", fontWeight:"bold"}}>Tel: {distribuidor.telefono}</p>
 
             </div>
           ))}
