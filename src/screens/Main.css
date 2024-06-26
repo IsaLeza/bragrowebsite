@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 50vh;
+    height: auto;
 }
 
 .main-1-text {
@@ -37,6 +37,14 @@
     margin-bottom: 20px;
 }
 
+.btn-dist-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 
 .btn-distribuidor {
     display: inline-block;
@@ -50,6 +58,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 50%;
 }
 
 .btn-distribuidor:hover {
