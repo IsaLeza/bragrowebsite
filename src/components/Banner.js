@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const Banner = () => {
   const calculateTimeLeft = () => {
-    const deadline = new Date('June 30, 2024 00:00:00').getTime();
+    const deadline = new Date('July 31, 2024 00:00:00').getTime();
     const now = new Date().getTime();
     const timeLeft = deadline - now;
 
