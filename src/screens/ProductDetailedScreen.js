@@ -34,14 +34,23 @@ const ProductDetailedScreen = () => {
 
     const { image, name, details, presentations, composition, downloadUrl } = product;
 
+    const handleDownload = () => {
+        if (!downloadUrl) {
+            alert("El archivo no se encuentra disponible. Estamos trabajando para tener toda la información actualizada. Pueden solicitar la ficha técnica con nuestro departamento de atención por WhatsApp en el botón de la esquina inferior izquierda.");
+        }
+    };
+
     return (
         <div>
             {/* Botón de descarga fijo */}
-            {downloadUrl && (
-                <a href={downloadUrl} download className="download-button">
-                    Descargar Ficha Técnica
-                </a>
-            )}
+            <a 
+                href={downloadUrl} 
+                download 
+                className="download-button" 
+                onClick={handleDownload}
+            >
+                Descargar Ficha Técnica
+            </a>
 
             <div className="product-screen">
                 <Fade>

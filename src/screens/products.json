@@ -264,7 +264,7 @@
                 "price": 5776
             }
         ],
-        "downloadUrl":"/media/FichaTec/BIOCIN_FICHA_TECNICA.pdf"
+        "downloadUrll":"/media/FichaTec/BIOCIN_FICHA_TECNICA.pdf"
     },
     {
         "id": "6",
@@ -352,7 +352,7 @@
                 "price": 2320
             }
         ],
-         "downloadUrl":"/media/FichaTec/CALTREX_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/CALTREX_FICHA_TECNICA.pdf"
     },
     {
         "id": "8",
@@ -530,7 +530,7 @@
                 "price": 123
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRGRONNPK301010_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRGRONNPK301010_FICHA_TECNICA.pdf"
     },
     {
         "id": "11",
@@ -754,7 +754,7 @@
                 "dose": "5 L/200L de agua"
             }
         ],
-         "downloadUrl":"/media/FichaTec/FOLINITRO_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/FOLINITRO_FICHA_TECNICA.pdf"
     },
     {
         "id": "15",
@@ -1231,7 +1231,7 @@
                 "price": "2446"
             }
         ],
-         "downloadUrl":"/media/FichaTec/MAXFE_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/MAXFE_FICHA_TECNICA.pdf"
     },
     {
         "id": "25",
@@ -1609,7 +1609,7 @@
                 "price": "2522"
             }
         ],
-         "downloadUrl":"/media/FichaTec/FORTIGREEN_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/FORTIGREEN_FICHA_TECNICA.pdf"
     },
     {
         "id": "31",
@@ -1700,7 +1700,7 @@
                 "price": "2602"
             }
         ],
-         "downloadUrl":"/media/FichaTec/MASZINC_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/MASZINC_FICHA_TECNICA.pdf"
     },
     {
         "id": "33",
@@ -1912,7 +1912,7 @@
                 "price": "2345"
             }
         ],
-         "downloadUrl":"/media/FichaTec/NUTRIX171717_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/NUTRIX171717_FICHA_TECNICA.pdf"
     },
     {
         "id": "37",
@@ -2033,7 +2033,7 @@
                 "price": "802"
             }
         ],
-         "downloadUrl":"/media/FichaTec/POWERBAT_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/POWERBAT_FICHA_TECNICA.pdf"
     },
     {
         "id": "39",
@@ -2481,7 +2481,7 @@
                 "price": "1097.92"
             }
         ],
-         "downloadUrl":"/media/FichaTec/SOYERPLUS_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/SOYERPLUS_FICHA_TECNICA.pdf"
     },
     {
         "id": "48",
@@ -2515,7 +2515,7 @@
                 "price": "578"
             }
         ],
-         "downloadUrl":"/media/FichaTec/SUPERGIB_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/SUPERGIB_FICHA_TECNICA.pdf"
     },
     {
         "id": "49",
@@ -2574,7 +2574,7 @@
                 "price": ""
             }
         ],
-         "downloadUrl":"/media/FichaTec/XTREMEK_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/XTREMEK_FICHA_TECNICA.pdf"
     },
     {
         "id": "51",
@@ -2684,7 +2684,7 @@
                 "price": 626
             }
         ],
-         "downloadUrl":"/media/FichaTec/ALMATINA_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/ALMATINA_FICHA_TECNICA.pdf"
     },
     {
         "id": "54",
@@ -2721,7 +2721,7 @@
                 "price": 410
             }
         ],
-         "downloadUrl":"/media/FichaTec/ULTRACIT_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/ULTRACIT_FICHA_TECNICA.pdf"
     },
     {
         "id": "55",
@@ -2795,7 +2795,7 @@
                 "price": "400"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BIOACTIVOGD_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BIOACTIVOGD_FICHA_TECNICA.pdf"
     },
     {
         "id": "57",
@@ -2874,7 +2874,7 @@
                 "price": "N/A"
             }
         ],
-         "downloadUrl":"/media/FichaTec/MAGNO_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/MAGNO_FICHA_TECNICA.pdf"
     },
     {
         "id": "59",
@@ -2948,7 +2948,7 @@
                 "price": "486"
             }
         ],
-         "downloadUrl":"/media/FichaTec/KILLEG_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/KILLEG_FICHA_TECNICA.pdf"
     },
     {
         "id": "61",
@@ -3092,7 +3092,7 @@
                 "price": "531"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRPACK_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRPACK_FICHA_TECNICA.pdf"
     },
     {
         "id": "66",
@@ -3129,7 +3129,7 @@
                 "price": "994"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRPACKGAVEENRAIZADOR_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRPACKGAVEENRAIZADOR_FICHA_TECNICA.pdf"
     },
     {
         "id": "67",
@@ -3210,7 +3210,7 @@
                 "price": "1015"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRPACKGAVEDESARROLLO_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRPACKGAVEDESARROLLO_FICHA_TECNICA.pdf"
     },
     {
         "id": "68",
@@ -3255,7 +3255,7 @@
                 "price": "907"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRPACKGAVELLENADO_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRPACKGAVELLENADO_FICHA_TECNICA.pdf"
     },
     {
         "id": "69",
@@ -3300,6 +3300,93 @@
                 "price": "821"
             }
         ],
-         "downloadUrl":"/media/FichaTec/BRPACKGAVEANTIESTRES_FICHA_TECNICA.pdf"
+         "downloadUrll":"/media/FichaTec/BRPACKGAVEANTIESTRES_FICHA_TECNICA.pdf"
+    },{
+        "id": "70",
+        "name": "BR BECTINA",
+        "image": "../media/mockupsBRAgro/BR BECTINA.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Benzoato de Emamectina",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "97%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "200 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+         "downloadUrl":"/media/FichaTec/BRBECTINA_FICHA_TECNICA.pdf"
+    },{
+        "id": "71",
+        "name": "BR BAM",
+        "image": "../media/mockupsBRAgro/BR BAM.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Abamectina",
+                "percentage": "2.3%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "97.7%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+         "downloadUrl":"/media/FichaTec/BRBAM_FICHA_TECNICA.pdf"
+    },{
+        "id": "72",
+        "name": "BR SPIN",
+        "image": "../media/mockupsBRAgro/BR SPIN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida",
+        "composition": [
+            {
+                "component": "Spinosad",
+                "percentage": "12%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "88%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "200 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+         "downloadUrl":"/media/FichaTec/BRSPIN_FICHA_TECNICA.pdf"
     }
 ]
