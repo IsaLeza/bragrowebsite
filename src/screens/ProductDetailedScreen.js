@@ -32,10 +32,17 @@ const ProductDetailedScreen = () => {
 
     const randomProducts = getRandomProducts();
 
-    const { image, name, details, presentations, composition } = product;
+    const { image, name, details, presentations, composition, downloadUrl } = product;
 
     return (
         <div>
+            {/* Botón de descarga fijo */}
+            {downloadUrl && (
+                <a href={downloadUrl} download className="download-button">
+                    Descargar Ficha Técnica
+                </a>
+            )}
+
             <div className="product-screen">
                 <Fade>
                     <div className="product-info">

@@ -1188,3 +1188,25 @@ h4 {
       font-size: 1em;
   }
 }
+
+.download-button {
+  position: fixed; /* Mantener el botón fijo en la ventana */
+  bottom: 20px; /* Espaciado desde la parte inferior */
+  right: 20px; /* Espaciado desde la derecha */
+  padding: 10px 15px;
+  background-color: #4CAF50; /* Fondo verde */
+  color: white; /* Texto blanco */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 100; /* Asegurarse de que esté por encima de otros elementos */
+  transition: background-color 0.3s; /* Para efectos al pasar el mouse */
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Cambiar el color al pasar el mouse */
+}
+
+.product-screen {
+  margin-top: 60px; /* Asegurar que el contenido no se superponga con el botón */
+}

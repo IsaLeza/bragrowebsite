@@ -46,7 +46,8 @@
                 "packaging": "1 garrafa",
                 "price": 6981
             }
-        ]
+        ],
+        "downloadUrl": "/media/FichaTec/+PODER.pdf"
     },
     {
         "id": "2",
@@ -83,7 +84,8 @@
                 "packaging": "1 cubeta",
                 "price": 608
             }
-        ]
+        ],
+        "downloadUrl": "/media/FichaTec/AGROCAL_FICHA_TECNICA.pdf"
     },
     {
         "id": "3",
@@ -164,7 +166,8 @@
                 "packaging": "1 garrafa",
                 "price": 1109.97
             }
-        ]
+        ],
+        "downloadUrl": "/media/FichaTec/ALGAXEN_FICHA_TECNICA.pdf"
     },
     {
         "id": "4",
@@ -220,7 +223,8 @@
                 "packaging": "1 Garrafa",
                 "price": 6480
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BIOACTIVO_FICHA_TECNICA.pdf"
     },
     {
         "id": "5",
@@ -259,7 +263,8 @@
                 "packaging": "1 Garrafa",
                 "price": 5776
             }
-        ]
+        ],
+        "downloadUrl":"/media/FichaTec/BIOCIN_FICHA_TECNICA.pdf"
     },
     {
         "id": "6",
@@ -298,7 +303,8 @@
                 "packaging": "1 Garrafa",
                 "price": 4058
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BIOGAR_FICHA_TECNICA.pdf"
     },
     {
         "id": "7",
@@ -345,7 +351,8 @@
                 "packaging": "1 Garrafa",
                 "price": 2320
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/CALTREX_FICHA_TECNICA.pdf"
     },
     {
         "id": "8",
@@ -400,7 +407,8 @@
                 "packaging": "1 Garrafa",
                 "price": 5311
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/DESTREC_FICHA_TECNICA.pdf"
     },
     {
         "id": "9",
@@ -472,7 +480,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": 149
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BR-GRON203010_FICHA_TECNICA.pdf"
     },
     {
         "id": "10",
@@ -520,7 +529,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": 123
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRGRONNPK301010_FICHA_TECNICA.pdf"
     },
     {
         "id": "11",
@@ -568,7 +578,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": 148
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRGRONNPK104010_FICHA_TECNICA.pdf"
     },
     {
         "id": "12",
@@ -607,7 +618,8 @@
                 "packaging": "1 Garrafa",
                 "price": 4117
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/EPAZTRAC_FICHA_TECNICA.pdf"
     },
     {
         "id": "13",
@@ -687,7 +699,8 @@
                 "packaging": "1 Garrafa",
                 "price": "6804"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/EXTRAMINO_FICHA_TECNICA.pdf"
     },
     {
         "id": "14",
@@ -740,7 +753,8 @@
                 "method": "Drench",
                 "dose": "5 L/200L de agua"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/FOLINITRO_FICHA_TECNICA.pdf"
     },
     {
         "id": "15",
@@ -768,7 +782,8 @@
                 "packaging": "Bulto",
                 "price": "1130"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/FULLHUMICS_FICHA_TECNICA.pdf"
     },
     {
         "id": "16",
@@ -811,7 +826,8 @@
                 "packaging": "1 Garrafa",
                 "price": "9072"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/PEROXIGREEN_FICHA_TECNICA.pdf"
     },
     {
         "id": "17",
@@ -868,7 +884,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": "149"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/DELUXPOTASIO_FICHA_TECNICA.pdf"
     },
     {
         "id": "18",
@@ -897,7 +914,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": "1728"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/GLUTAMASTER_FICHA_TECNICA.pdf"
     },
     {
         "id": "19",
@@ -940,7 +958,8 @@
                 "packaging": "1 Garrafa",
                 "price": "4450"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/KUPEWA_FICHA_TECNICA.pdf"
     },
     {
         "id": "20",
@@ -969,7 +988,6 @@
                 "component": "Acondicionadores",
                 "percentage": "78%"
             }
-
         ],
         "presentations": [
             {
@@ -992,7 +1010,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2745"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MASTERCALCIO_FICHA_TECNICA.pdf"
     },
     {
         "id": "21",
@@ -1029,7 +1048,6 @@
                 "component": "Acondicionadores",
                 "percentage": "46%"
             }
-
         ],
         "presentations": [
             {
@@ -1062,7 +1080,8 @@
                 "packaging": "1 Bidón",
                 "price": "32400"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MASTERCALCIORIEGO_FICHA_TECNICA.pdf"
     },
     {
         "id": "22",
@@ -1119,7 +1138,8 @@
                 "packaging": "1 Bidón",
                 "price": "27002"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MASTERORGANIC_FICHA_TECNICA.pdf"
     },
     {
         "id": "23",
@@ -1166,7 +1186,8 @@
                 "packaging": "1 Garrafa",
                 "price": "5400"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MASTERPROTECT_FICHA_TECNICA.pdf"
     },
     {
         "id": "24",
@@ -1209,7 +1230,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2446"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MAXFE_FICHA_TECNICA.pdf"
     },
     {
         "id": "25",
@@ -1217,7 +1239,6 @@
         "image": "../media/mockupsBRAgro/RENDIFLOR.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Complejo metabólico para floración",
-        
         "composition": [
             {
                 "component": "Ácidos húmicos",
@@ -1243,7 +1264,6 @@
                 "component": "Acondicionadores",
                 "percentage": "42%"
             }
-
         ],
         "presentations": [
             {
@@ -1266,7 +1286,8 @@
                 "packaging": "1 Garrafa",
                 "price": "4208"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RENDIFLOR_FICHA_TECNICA.pdf"
     },
     {
         "id": "26",
@@ -1315,7 +1336,6 @@
                 "component": "Manganeso (Mn)",
                 "percentage": "10 000 ppm"
             }
-
         ],
         "presentations": [
             {
@@ -1328,7 +1348,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": "150"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/DELUXNPK191919_FICHA_TECNICA.pdf"
     },
     {
         "id": "27",
@@ -1393,7 +1414,8 @@
                 "packaging": "1 Bidón",
                 "price": "39600"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MAXIENGORDE_FICHA_TECNICA.pdf"
     },
     {
         "id": "28",
@@ -1466,7 +1488,8 @@
                 "packaging": "1 Bidón",
                 "price": "14400"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BIOARRANKE824_FICHA_TECNICA.pdf"
     },
     {
         "id": "29",
@@ -1529,7 +1552,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2592"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BIOTEKMICROS_FICHA_TECNICA.pdf"
     },
     {
         "id": "30",
@@ -1584,7 +1608,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2522"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/FORTIGREEN_FICHA_TECNICA.pdf"
     },
     {
         "id": "31",
@@ -1634,7 +1659,8 @@
                 "packaging": "1 Saco",
                 "price": "19520"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/GIBFRUTAXL_FICHA_TECNICA.pdf"
     },
     {
         "id": "32",
@@ -1651,7 +1677,6 @@
                 "component": "Zinc (Zn)",
                 "percentage": "100 g/L"
             }
-
         ],
         "presentations": [
             {
@@ -1674,7 +1699,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2602"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MASZINC_FICHA_TECNICA.pdf"
     },
     {
         "id": "33",
@@ -1737,7 +1763,8 @@
                 "packaging": "1 Garrafa",
                 "price": "3030"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MAXIMASTER_FICHA_TECNICA.pdf"
     },
     {
         "id": "34",
@@ -1798,7 +1825,8 @@
                 "packaging": "1 Bidón",
                 "price": "61200"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/NEMABIT_FICHA_TECNICA.pdf"
     },
     {
         "id": "35",
@@ -1839,7 +1867,8 @@
                 "packaging": "Bulto",
                 "price": "2506"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/NITROBAC_FICHA_TECNICA.pdf"
     },
     {
         "id": "36",
@@ -1882,7 +1911,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2345"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/NUTRIX171717_FICHA_TECNICA.pdf"
     },
     {
         "id": "37",
@@ -1915,7 +1945,6 @@
                 "component": "Acondicionadores",
                 "percentage": "19%"
             }
-
         ],
         "presentations": [
             {
@@ -1933,7 +1962,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2215"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/POTAXIONK_FICHA_TECNICA.pdf"
     },
     {
         "id": "38",
@@ -1990,7 +2020,6 @@
                 "component": "Boro (B)",
                 "percentage": "10 ppm"
             }
-
         ],
         "presentations": [
             {
@@ -2003,7 +2032,8 @@
                 "packaging": "1 Garrafa",
                 "price": "802"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/POWERBAT_FICHA_TECNICA.pdf"
     },
     {
         "id": "39",
@@ -2028,7 +2058,6 @@
                 "component": "Acondicionadores",
                 "percentage": "12%"
             }
-
         ],
         "presentations": [
             {
@@ -2051,7 +2080,8 @@
                 "packaging": "1 Garrafa",
                 "price": "4176.9"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/QUATERSUPREME_FICHA_TECNICA.pdf"
     },
     {
         "id": "40",
@@ -2071,7 +2101,8 @@
                 "packaging": "Caja de 10 pz",
                 "price": "378"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/QUELTEXFE_FICHA_TECNICA.pdf"
     },
     {
         "id": "41",
@@ -2137,7 +2168,8 @@
                 "packaging": "1 Bidón",
                 "price": "35280"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RADICREX_FICHA_TECNICA.pdf"
     },
     {
         "id": "42",
@@ -2203,7 +2235,8 @@
                 "packaging": "1 Bidón",
                 "price": "59616"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RADIKON_FICHA_TECNICA.pdf"
     },
     {
         "id": "43",
@@ -2265,7 +2298,8 @@
                 "packaging": "1 Saco",
                 "price": "1515"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RAIXEN_FICHA_TECNICA.pdf"
     },
     {
         "id": "44",
@@ -2286,7 +2320,6 @@
                 "component": "Diluyentes y Acondicionadores",
                 "percentage": "40%"
             }
-
         ],
         "presentations": [
             {
@@ -2314,7 +2347,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2566"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RPHPLUS_FICHA_TECNICA.pdf"
     },
     {
         "id": "45",
@@ -2368,7 +2402,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": "4644"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/RUSTIMAX_FICHA_TECNICA.pdf"
     },
     {
         "id": "46",
@@ -2415,7 +2450,8 @@
                 "packaging": "1 Garrafa",
                 "price": "5938"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/SALTMOVER_FICHA_TECNICA.pdf"
     },
     {
         "id": "47",
@@ -2444,7 +2480,8 @@
                 "packaging": "1 Garrafa",
                 "price": "1097.92"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/SOYERPLUS_FICHA_TECNICA.pdf"
     },
     {
         "id": "48",
@@ -2477,7 +2514,8 @@
                 "packaging": "Caja de 48 pz",
                 "price": "578"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/SUPERGIB_FICHA_TECNICA.pdf"
     },
     {
         "id": "49",
@@ -2506,7 +2544,8 @@
                 "packaging": "1 Garrafa",
                 "price": "718"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/UNIBORO_FICHA_TECNICA.pdf"
     },
     {
         "id": "50",
@@ -2534,7 +2573,8 @@
                 "packaging": "",
                 "price": ""
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/XTREMEK_FICHA_TECNICA.pdf"
     },
     {
         "id": "51",
@@ -2563,7 +2603,8 @@
                 "packaging": "1 Garrafa",
                 "price": 1307
             }
-        ]
+        ],
+             "downloadUrl":"/media/FichaTec/YUCATECH_FICHA_TECNICA.pdf"
     },
     {
         "id": "52",
@@ -2601,7 +2642,8 @@
                 "packaging": "1 Garrafa",
                 "price": "2078"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/ZUCKERMOB_FICHA_TECNICA.pdf"
     },
     {
         "id": "53",
@@ -2641,7 +2683,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": 626
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/ALMATINA_FICHA_TECNICA.pdf"
     },
     {
         "id": "54",
@@ -2677,7 +2720,8 @@
                 "packaging": "Caja de 48 pz",
                 "price": 410
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/ULTRACIT_FICHA_TECNICA.pdf"
     },
     {
         "id": "55",
@@ -2713,7 +2757,8 @@
                 "packaging": "Caja de 20 pz",
                 "price": "421"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/HIPEROOT_FICHA_TECNICA.pdf"
     },
     {
         "id": "56",
@@ -2749,7 +2794,8 @@
                 "packaging": "Caja de 12 pz",
                 "price": "400"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BIOACTIVOGD_FICHA_TECNICA.pdf"
     },
     {
         "id": "57",
@@ -2788,7 +2834,8 @@
                 "packaging": "1 Garrafa",
                 "price": "6264"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/PINAFULL_FICHA_TECNICA.pdf"
     },
     {
         "id": "58",
@@ -2826,7 +2873,8 @@
                 "packaging": "OOS",
                 "price": "N/A"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/MAGNO_FICHA_TECNICA.pdf"
     },
     {
         "id": "59",
@@ -2869,7 +2917,8 @@
                 "packaging": "1 Garrafa",
                 "price": "7128"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/VIRUSTAN_FICHA_TECNICA.pdf"
     },
     {
         "id": "60",
@@ -2898,7 +2947,8 @@
                 "packaging": "Caja de 12 pz",
                 "price": "486"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/KILLEG_FICHA_TECNICA.pdf"
     },
     {
         "id": "61",
@@ -2938,7 +2988,8 @@
                 "packaging": "1 Garrafa",
                 "price": "11232"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/VERWET_FICHA_TECNICA.pdf"
     },
     {
         "id": "62",
@@ -2967,7 +3018,8 @@
                 "packaging": "Caja de 12 pz",
                 "price": "670"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/KUCOB_FICHA_TECNICA.pdf"
     },
     {
         "id": "63",
@@ -2992,7 +3044,6 @@
                 "component": "Diluyentes y Acondicionadores",
                 "percentage": "69.1%"
             }
-
         ],
         "presentations": [
             {
@@ -3020,16 +3071,15 @@
                 "packaging": "1 Garrafa",
                 "price": "2160"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/DISPERXIC_FICHA_TECNICA.pdf"
     },
-    
     {
         "id": "65",
         "name": "BR PACK",
         "image": "../media/mockupsBRAgro/BR PACK.png",
         "category": "CATEGORIA BR AGRO",
         "details": "Diseñado para brindar a tus cultivos l amejor biotecnología CULTIVOS: Maíz, Arroz, Avena, Cebada, Sorgo, Trigo, Soya, Alfalfa, Garbanzo, Frijol, Caña",
-        
         "presentations": [
             {
                 "size": "Desarrollo",
@@ -3041,7 +3091,8 @@
                 "packaging": "1 PAQUETE",
                 "price": "531"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRPACK_FICHA_TECNICA.pdf"
     },
     {
         "id": "66",
@@ -3077,7 +3128,8 @@
                 "packaging": "1 PAQUETE",
                 "price": "994"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRPACKGAVEENRAIZADOR_FICHA_TECNICA.pdf"
     },
     {
         "id": "67",
@@ -3150,7 +3202,6 @@
                 "component": "Citoquinina",
                 "percentage": "2000 ppm"
             }
-
         ],
         "presentations": [
             {
@@ -3158,7 +3209,8 @@
                 "packaging": "1 PAQUETE",
                 "price": "1015"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRPACKGAVEDESARROLLO_FICHA_TECNICA.pdf"
     },
     {
         "id": "68",
@@ -3202,7 +3254,8 @@
                 "packaging": "1 PAQUETE",
                 "price": "907"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRPACKGAVELLENADO_FICHA_TECNICA.pdf"
     },
     {
         "id": "69",
@@ -3239,7 +3292,6 @@
                 "component": "Acondicionadores",
                 "percentage": "53%"
             }
-
         ],
         "presentations": [
             {
@@ -3247,6 +3299,7 @@
                 "packaging": "1 PAQUETE",
                 "price": "821"
             }
-        ]
+        ],
+         "downloadUrl":"/media/FichaTec/BRPACKGAVEANTIESTRES_FICHA_TECNICA.pdf"
     }
 ]
