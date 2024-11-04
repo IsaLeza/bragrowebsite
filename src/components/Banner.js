@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const Banner = () => {
   const calculateTimeLeft = () => {
-    const deadline = new Date('July 31, 2024 00:00:00').getTime();
+    const deadline = new Date('Nov 30, 2024 11:59:59').getTime();
     const now = new Date().getTime();
     const timeLeft = deadline - now;
 
@@ -40,7 +40,7 @@ const Banner = () => {
   return (
     <div className="pscreen-banner">
       <h1>Pregunta por nuestros paquetes</h1>
-      <h2>Por tiempo limitado</h2>
+      <h1 style={{color:"FFF"}}>Por tiempo limitado</h1>
       <div id="countdown">
         {timeLeft.expired ? (
           "La oferta ha terminado"
