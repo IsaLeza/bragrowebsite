@@ -1,18 +1,18 @@
 {
     "reviews": [
         {
-            "nombre": "Miguel H.",
+            "nombre": "Ivan Solís S.",
             "foto_perfil": "/media/1.png",
-            "review": "¡Excelente producto! Me ha ayudado mucho en mi cultivo.",
+            "review": "¡Muy buen Servicio!.",
             "fecha": "Marzo 2024",
             "rating": 5
         },
         {
-            "nombre": "Uriel C.",
+            "nombre": "Edgar Hernández.",
             "foto_perfil": "/media/3.png",
-            "review": "Los productos son de calidad, cumplen con su función",
+            "review": "Muy buena herramienta",
             "fecha": "Febrero 2024",
-            "rating": 4
+            "rating": 5
         },
         {
             "nombre": "Juan Manuel P.",

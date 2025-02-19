@@ -234,7 +234,7 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 5%;
+  padding: 40px 05%;
 }
 
 .section-title h2 {
@@ -367,7 +367,7 @@ code {
 
   .btn-container .btn-primary,
   .btn-container .btn-secondary {
-      width: 100%;
+      width: 50%;
       font-size: 14px;
   }
 }
@@ -383,7 +383,7 @@ code {
 .section-title {
   text-align: center;
   padding: 10px;
-  font-size: 28px;
+  font-size: 36px;
   color: #179847;
 }
 
@@ -1003,7 +1003,7 @@ nav ul li a:hover {
 
 .pscreen-img {
   width: 100%; /* Ocupa todo el ancho del contenedor */
-  height: 280px; /* Altura fija para que sea cuadrado */
+  height: 240px; /* Altura fija para que sea cuadrado */
   object-fit: scale-down; /* Ensure images cover the container proportionally */
   object-position: center; /* Centra el producto dentro del cuadro */
   border-radius: 5px;

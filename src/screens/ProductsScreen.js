@@ -3,7 +3,6 @@ import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 import productsData from '../screens/products.json'; // Importing JSON file
 import { useState } from 'react';
-import Banner from '../components/Banner';
 
 const ProductCard = ({ product }) => {
     const [ref, inView] = useInView({
@@ -51,7 +50,6 @@ function ProductScreen() {
 
     return (
         <div className="pscreen-container">
-            <Banner></Banner>
             <div className="pscreen-grid">
                 {products.slice(0, visibleProducts).map((product) => (
                     <ProductCard key={product.id} product={product} />
