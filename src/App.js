@@ -39,45 +39,35 @@ function App() {
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
-    <div>
-      <div className={`overlay ${menuOpen ? 'overlay-active' : ''}`} onClick={toggleMenu}></div>
-
-      <nav className="navbar">
-        <div>
-          <Link to="/">
-            <img className="logo" src={process.env.PUBLIC_URL + '/media/bragro.png'} alt="Logo" />
-          </Link>
-        </div>
-        <ul className={`menu ${menuOpen ? 'menu-open' : ''}`}>
-          <li>
-            <Link to="/" className="nav-link" onClick={closeMenu}>INICIO</Link>
-          </li>
-          <li>
-            <Link to="/about" className="nav-link" onClick={closeMenu}>NOSOTROS</Link>
-          </li>
-          <li>
-            <Link to="/products" className="nav-link" onClick={closeMenu}>PRODUCTOS</Link>
-          </li>
-          <li>
-            <Link to="/distribuidores" className="nav-link" onClick={closeMenu}>DISTRIBUIDORES</Link>
-          </li>
+    <header className="navbar-container">
+      <div className={`overlay ${menuOpen ? "overlay-active" : ""}`} onClick={closeMenu}></div>
+      
+      <nav className={`navbar ${menuOpen ? "navbar-open" : ""}`}>
+        <Link to="/" className="logo-container">
+          <img className="logo" src={process.env.PUBLIC_URL + "/media/bragro.png"} alt="Logo" />
+        </Link>
+        
+        <ul className={`menu ${menuOpen ? "menu-open" : ""}`}>
+          <li><Link to="/" className="nav-link" onClick={closeMenu}>INICIO</Link></li>
+          <li><Link to="/about" className="nav-link" onClick={closeMenu}>NOSOTROS</Link></li>
+          <li><Link to="/products" className="nav-link" onClick={closeMenu}>PRODUCTOS</Link></li>
+          <li><Link to="/distribuidores" className="nav-link" onClick={closeMenu}>DISTRIBUIDORES</Link></li>
         </ul>
-        <div className="hamburger" onClick={toggleMenu}>
-          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
-          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
-          <div className={`bar ${menuOpen ? 'bar-open' : ''}`}></div>
+
+        <div className="hamburger" onClick={toggleMenu} aria-label="Menu">
+          <div className={`bar ${menuOpen ? "bar-open" : ""}`}></div>
+          <div className={`bar ${menuOpen ? "bar-open" : ""}`}></div>
+          <div className={`bar ${menuOpen ? "bar-open" : ""}`}></div>
         </div>
       </nav>
-    </div>
+
+      {/* Hexagonal Background */}
+      <div className="hex-background"></div>
+    </header>
   );
 };
 

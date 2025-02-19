@@ -22,18 +22,20 @@ function MainScreen() {
     return (
         <div>
             <section className="main-1">
-                <div className="main-1-text">
-                    <h1>Soluciones integrales para la agricultura: Agroquímicos, fertilizantes y más</h1>
-                    <h2>Se parte de la Red de Distribuidores con mayor crecimiento en México</h2>
-                    <button
-                        className="btn-distribuidor"
-                        onClick={() => handleWhatsAppClick("Quiero ser Distribuidor")}
-                    >
-                        Quiero ser Distribuidor
-                    </button>
-                </div>
-                <div className="main-1-img">
-                    <img src={process.env.PUBLIC_URL + '/media/main-img.png'} alt="main-1-img" />
+                <div className="main-1-content">
+                    <div className="main-1-text">
+                        <h1>Soluciones Integrales para la Agricultura</h1>
+                        <p>Agroquímicos, fertilizantes y más. Únete a la Red de Distribuidores con mayor crecimiento en México.</p>
+                        <button
+                            className="btn-distribuidor"
+                            onClick={() => handleWhatsAppClick("Quiero ser Distribuidor")}
+                        >
+                            Quiero ser Distribuidor
+                        </button>
+                    </div>
+                    <div className="main-1-img">
+                        <img src={process.env.PUBLIC_URL + '/media/bottles.png'} alt="Agricultura sostenible" />
+                    </div>
                 </div>
             </section>
 
@@ -43,29 +45,25 @@ function MainScreen() {
                 </div>
                 <div className="main-2">
                     <div className="main-2-txt">
-                        <h2>Nuestro compromiso con el campo mexicano ofreciendo productos de calidad a los agricultores.</h2>
-                        <p>En BR Agro, nos especializamos en proporcionar una amplia gama de productos agroquímicos innovadores y eficaces, diseñados específicamente para satisfacer las necesidades de los agricultores en todo México. Trabajamos incansablemente para ofrecer soluciones que ayuden a proteger y mejorar la productividad de los cultivos, brindando a nuestros clientes la confianza y la tranquilidad que necesitan para prosperar en el campo.</p>
+                        <h2>Compromiso con el campo mexicano</h2>
+                        <p>
+                            En BR Agro, nos especializamos en ofrecer productos agroquímicos innovadores y eficaces
+                            para potenciar la productividad agrícola en México. Nuestra misión es brindar soluciones
+                            confiables que ayuden a proteger y mejorar los cultivos, garantizando la seguridad y el
+                            crecimiento del sector agrícola.
+                        </p>
                         <div className="btn-container">
                             <Link to="/products" className="btn-dist-cont">
-                                <button
-                                    className="btn-distribuidor"
-
-                                >
-                                    Productos
-                                </button></Link>
-                            <button
-                                className="btn-distribuidor"
-                                onClick={() => handleWhatsAppClick("Quiero saber más sobre los Distribuidores Autorizados")}
-                            >
-                                Distribuidores Autorizados
-                            </button>
+                                <button className="btn-primary">Ver Productos</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="main-2-img">
-                        <img src={process.env.PUBLIC_URL + '/media/map1.png'} alt="main-2-img" />
+                        <img src={process.env.PUBLIC_URL + '/media/map1.png'} alt="Mapa de distribución" />
                     </div>
                 </div>
             </section>
+
             <section className="main-section">
                 <div className="section-title2">
                     <h2>Clientes Satisfechos</h2>
