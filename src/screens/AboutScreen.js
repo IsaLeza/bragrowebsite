@@ -1,104 +1,126 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
+
 
 function AboutScreen() {
     return (
-        <div>
-            <section className="about-section-1">
-                <div className="about-section-1-over">
-                    <h2>¿Quienes sómos?</h2>
-                    <p>BR Agro es una empresa comprometida con las ciencias agrícolas, dedicada a proporcionar soluciones innovadoras y sostenibles para la protección de los cultivos. Desde el desarrollo hasta la implementación de sistemas y la adopción de soluciones biológicas modernas, nos apasiona ofrecer a los productores mexicanos herramientas nuevas y eficaces.</p>
+        <div className="about-page">
+            <Helmet>
+                <title>BR Agro - Nosotros</title>
+                <meta
+                    name="description"
+                    content="Optimiza tu producción agrícola con los mejores agroquímicos del mercado. BR Agro ofrece fertilizantes, insecticidas y soluciones innovadoras para el campo."
+                />
+                <meta
+                    name="keywords"
+                    content="Agroquímicos, fertilizantes agrícolas, insecticidas, BR Agro, protección de cultivos, distribuidores agroquímicos, soluciones agrícolas, nutrición vegetal, bioestimulantes"
+                />
+                <meta name="author" content="isaSoft" />
+            </Helmet>
 
-                    <p>Nos destacamos por nuestra búsqueda constante de la excelencia y la innovación. Nuestro enfoque se centra en desarrollar soluciones que no solo sean efectivas, sino también respetuosas con el medio ambiente y beneficiosas para la salud de los cultivos y las comunidades agrícolas.</p>
+            {/* Sección 1: Introducción con Mapa */}
+            <section className="about-intro">
+                <div className="about-intro-container">
 
-                    <p>En BR Agro, entendemos las complejidades y desafíos que enfrentan los productores en un entorno agrícola en constante cambio. Por ello, nos esforzamos por estar a la vanguardia de la investigación y el desarrollo, brindando a nuestros clientes las herramientas y el conocimiento necesarios para prosperar en un mercado competitivo y en evolución.</p>
+                    {/* Texto a la izquierda */}
+                    <div className="about-intro-text">
+                        <h2>Expansión con Impacto</h2>
+                        <p>
+                            En <strong>BR Agro</strong>, estamos construyendo una red de agrónomos con visión de crecimiento.
+                            Nuestro modelo de negocio no solo se basa en la venta de agroinsumos, sino en el desarrollo
+                            de <strong>emprendedores del campo</strong>, jóvenes que buscan generar impacto, estabilidad
+                            económica y un futuro próspero para el sector agrícola en México.
+                        </p>
+                    </div>
+
+                    {/* Mapa de México a la derecha */}
+                    <div className="about-intro-map">
+                        <img src={process.env.PUBLIC_URL + "/media/map1.png"} alt="Mapa de México BR Agro" />
+                    </div>
 
                 </div>
             </section>
-            <section style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
-                <div>
-                    <h2 className="section-title2">NUESTOS INICIOS</h2>
+
+            {/* Sección 2: Biografía del Fundador */}
+            <section className="founder-section">
+                <div className="founder-image">
+                    <img src={process.env.PUBLIC_URL + "/media/benito.png"} alt="Benito Reyes - Fundador" />
                 </div>
-                <div className="about-section">
-                    <div>
-
-                        <p>En 2019, BR Agro se fundó gracias a la visión del Ingeniero en Agronomía, Benito Reyes, quien identificó una oportunidad en el campo mexicano y decidió emprender desde el estado de Puebla. Con el tiempo, hemos desarrollado nuevas fórmulas y nuestro catálogo está en constante evolución.</p>
-
-                        <p>Además, hemos establecido alianzas estratégicas con distribuidores y tiendas de agroinsumos en todo México, expandiendo nuestra presencia a lo largo del país. En 2023, fortalecimos nuestra presencia global al establecer alianzas con empresas en Asia y Europa, lo que nos ha permitido continuar creciendo y ofrecer a los productores mexicanos productos de excelente calidad a precios más accesibles.</p>
-
-                        <p>Nuestros productos han sido probados y respaldados por miles de productores en todo el país, con ayuda de nuestros <strong>Socios Comerciales y Distribuidores Autorizados</strong> quienes han encontrado en BR Agro la mejor opción para optimizar sus cultivos y hacer más rentable la producción agrícola.</p>
-                    </div>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/media/ceo-profile.jpg'} alt="inclusividad" />
-                    </div>
+                <div className="founder-text">
+                    <h2>Una Visión que Transforma</h2>
+                    <h3>Ing. Benito Reyes</h3>
+                    <p>
+                        <strong>El Ingeniero Benito Reyes</strong> fundó BR Agro con la convicción de que el campo
+                        mexicano necesita más que productos: necesita <strong>personas preparadas</strong> y
+                        oportunidades reales de crecimiento.
+                    </p>
+                    <p>
+                        Con varios años en el sector agrícola, identificó que muchos jóvenes agrónomos
+                        no encontraban el camino para desarrollar su propio negocio. Así nació una visión de
+                        crecimiento basada en <strong>formar una red nacional de emprendedores</strong>,
+                        brindándoles acceso a herramientas, conocimiento y modelos de negocio rentables.
+                    </p>
                 </div>
-
             </section>
-            <section style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
-                <div>
-                    <h2 className="section-title2">VISIÓN</h2>
-                </div>
-                <div className="about-section">
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/media/vision-pic.png'} alt="vision-pic" />
-                    </div>
-                    <div class="vision-content">
-                        <p>En BR Agro, nos esforzamos por ser líderes en la industria de productos agroquímicos, innovando constantemente para proporcionar soluciones efectivas y sostenibles que impulsen el éxito de nuestros clientes y contribuyan al bienestar del medio ambiente.</p>
-                        <p>Buscamos ser reconocidos por nuestro compromiso con la calidad, la seguridad y la responsabilidad social, estableciendo estándares ejemplares en todo lo que hacemos. Nos dedicamos a crear un mundo agrícola más próspero y equilibrado, donde la agricultura sea más eficiente, sostenible y rentable para todos.</p>
-                    </div>
-                </div>
 
+            {/* Sección 3: Historia de BR Agro */}
+            <section className="company-history">
+                <div className="history-text">
+                    <h2>Nuestros Inicios</h2>
+                    <p>
+                        BR Agro nació en <strong>2019</strong> en Puebla con un objetivo claro:
+                        revolucionar el sector agropecuario mexicano. Desde sus primeros días, la empresa
+                        apostó por la innovación y la accesibilidad en los productos para los productores nacionales.
+                    </p>
+                    <p>
+                        Con el tiempo, nos dimos cuenta de que nuestra verdadera fortaleza estaba en la
+                        <strong> comunidad de agrónomos</strong> que creíamos, aquellos que confían en nuestra visión y
+                        encuentran en BR Agro una plataforma para <strong>construir su futuro</strong>.
+                    </p>
+                </div>
+                <div className="history-image">
+                    <img src={process.env.PUBLIC_URL + "/media/shipping.png"} alt="Crecimiento BR Agro" />
+                </div>
             </section>
-            <section style={{ display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center" }}>
-                <div>
-                    <h2 className="section-title2">MISIÓN</h2>
-                </div>
-                <div className="about-section">
-                    <div class="mission-content">
-                        <p>En BR Agro, nuestra misión es proporcionar soluciones innovadoras y de alta calidad en productos agroquímicos que contribuyan al aumento de la productividad y la sostenibilidad en la agricultura. Nos esforzamos por ser socios confiables de nuestros clientes, brindándoles productos seguros y efectivos que les ayuden a enfrentar los desafíos del campo y alcanzar sus metas de producción.</p>
-                        <p>Buscamos promover prácticas agrícolas responsables y respetuosas con el medio ambiente, minimizando el impacto negativo de nuestros productos y fomentando el uso responsable de los recursos naturales. Estamos comprometidos con la mejora continua y la excelencia en todo lo que hacemos, con el objetivo de contribuir al desarrollo sostenible de la agricultura y al bienestar de las comunidades agrícolas en todo el mundo.</p>
-                    </div>
-                    <div>
-                        <img src={process.env.PUBLIC_URL + '/media/mision-br.png'} alt="inclusividad" />
-                    </div>
-                </div>
 
+            {/* Sección 4: Expansión Nacional y Red de Agrónomos */}
+            <section className="expansion-strategy">
+                <h2>Construyendo una Red de Líderes Agrónomos</h2>
+                <p>
+                    No creemos en la competencia individual. Creemos en la <strong> colaboración</strong>
+                    como la clave para transformar el campo mexicano. Por eso, nuestra estrategia de expansión
+                    está basada en la <strong> formación de redes de agrónomos</strong>, donde cada miembro
+                    crece junto con nosotros.
+                </p>
+                <p>
+                    Nuestro enfoque va más allá de la distribución de agroquímicos. Desarrollamos
+                    <strong> modelos de negocio sostenibles</strong> para que los jóvenes agrónomos puedan
+                    emprender con confianza, generar ingresos y, al mismo tiempo, mejorar la producción agrícola en México.
+                </p>
             </section>
-            <section className="about-2">
-                <div style={{
-                    display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: "center"
-                }}>
-                    <h2>Nuestros Valores</h2>
-                    <div className="valores-icons-container">
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/commitment.png'} alt="compromiso" />
-                            <h3>Compromiso</h3>
-                        </div>
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/security.png'} alt="seguridad" />
-                            <h3>Seguridad</h3>
-                        </div>
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/servicio.png'} alt="servicio" />
-                            <h3>Servicio</h3>
-                        </div>
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/honesty.png'} alt="honestidad" />
-                            <h3>Honestidad</h3>
-                        </div>
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/sostenible.png'} alt="sostenible" />
-                            <h3>Sostenibilidad</h3>
-                        </div>
-                        <div>
-                            <img src={process.env.PUBLIC_URL + '/media/inclusive.png'} alt="inclusividad" />
-                            <h3>Inclusividad</h3>
-                        </div>
-                    </div>
-                </div>
 
+            {/* Sección 5: Compromiso con el Campo Mexicano */}
+            <section className="commitment-section">
+                <div className="commitment-text">
+                    <h2>Un Modelo de Crecimiento Justo y Sostenible</h2>
+                    <p>
+                        La agricultura mexicana merece un cambio. Nuestro compromiso es proporcionar soluciones
+                        que no solo sean rentables, sino que también <strong>generen bienestar</strong>.
+                        Al conectar a los productores con una <strong>red de agrónomos preparados</strong>,
+                        estamos asegurando un futuro más sólido para el campo.
+                    </p>
+                    <p>
+                        Creemos en el talento de los jóvenes. Creemos en su capacidad de transformar la agricultura.
+                        Y sobre todo, creemos que cuando crecemos juntos, <strong>ganamos todos</strong>.
+                    </p>
+                </div>
+                <div className="commitment-image">
+                    <img src={process.env.PUBLIC_URL + "/media/socio-entrega.png"} alt="Compromiso con el campo" />
+                </div>
             </section>
+
         </div>
-    )
+    );
 }
 
 export default AboutScreen;

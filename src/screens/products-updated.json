@@ -1,0 +1,4318 @@
+[
+    {
+        "id": "bb1f802f76bf450d9e7d9847ff9c070c",
+        "name": "+PODER",
+        "image": "/media/mockupsBRAgro/+PODER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA - ACARICIDA",
+        "composition": [
+            {
+                "component": "Extracto de Ajo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Extracto de Chile",
+                "sciname": "Capsidium futescens",
+                "percentage": "30%"
+            },
+            {
+                "component": "Extracto de Canela",
+                "sciname": "Cinnamomun zeylanicum",
+                "percentage": "15%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "25%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 385
+            },
+            {
+                "size": "5L",
+                "packaging": "1 garrafa",
+                "price": 1790
+            },
+            {
+                "size": "10L",
+                "packaging": "1 garrafa",
+                "price": 3520
+            },
+            {
+                "size": "20L",
+                "packaging": "1 garrafa",
+                "price": 6981
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/+PODER.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "42507a752d8d4b61abb56c372aef73df",
+        "name": "AGROCAL",
+        "image": "/media/mockupsBRAgro/AGROCAL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "CALCIO DE ALTO RENDIMIENTO",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "35%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "35%"
+            },
+            {
+                "component": "Algas marinas",
+                "sciname": "(Ascophyllum nodosum)",
+                "percentage": "20,000 ppm"
+            },
+            {
+                "component": "Húmicos",
+                "percentage": "80,000 ppm"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "1,000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "3.5L",
+                "packaging": "1 cubeta",
+                "price": 608
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/AGROCAL_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "4db66708193e44d1b69aa655561e5118",
+        "name": "ALGAXEN",
+        "image": "/media/mockupsBRAgro/ALGAXEN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "BIOESTIMULANTE",
+        "composition": [
+            {
+                "component": "Algas marinas",
+                "percentage": "100,000 ppm"
+            },
+            {
+                "component": "Aminoles",
+                "percentage": "50,000 ppm"
+            },
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "1.2000%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "0.820%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Calcio (Ca2+)",
+                "percentage": "0.2400%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.1400%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "0.2300%"
+            },
+            {
+                "component": "Sodio (Na)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Hierro (F)",
+                "percentage": "0.007%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "5.6600%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.15%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "2%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "85%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 256.58
+            },
+            {
+                "size": "5L",
+                "packaging": "1 garrafa",
+                "price": 1109.97
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/ALGAXEN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "0da53521701e4e3f98d221df455302be",
+        "name": "BIO ACTIVO",
+        "image": "../media/mockupsBRAgro/BIOACTIVO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "BIORREGULADOR",
+        "composition": [
+            {
+                "component": "Citoquinina",
+                "percentage": "3081 ppm"
+            },
+            {
+                "component": "Gilberelina",
+                "percentage": "510 ppm"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "98.9%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": 144
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 398
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1838
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 3420
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 6480
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BIOACTIVO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "6245ccd7f7dc489b9087fe849a35b3b2",
+        "name": "BIOCIN",
+        "image": "../media/mockupsBRAgro/BIOCIN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA - ACARICIDA",
+        "composition": [
+            {
+                "component": "Extracto de Canela",
+                "percentage": "20%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "80%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 335
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1576
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2948
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 5776
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BIOCIN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "4789fe8332f74624a4e728a2f0dc17cc",
+        "name": "BIOGAR",
+        "image": "../media/mockupsBRAgro/BIOGAR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "INSECTICIDA",
+        "composition": [
+            {
+                "component": "Extracto de ajo (Allium setivum)",
+                "percentage": "90%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "10%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 239
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1110
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2089
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 4058
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BIOGAR_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "f16bf2eaa1d54e8489090f582879530a",
+        "name": "CALTREX",
+        "image": "../media/mockupsBRAgro/CALTREX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "FERTILIZANTE FOLIAR",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "7%"
+            },
+            {
+                "component": "Boro",
+                "percentage": "2%"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Húmicos",
+                "percentage": "500 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 155
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 653
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 1233
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 2320
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/CALTREX_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "955d92c973fb4070a30cbfcf16d136f3",
+        "name": "DESTREC",
+        "image": "../media/mockupsBRAgro/DESTREC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Antiestresante y Activador Fisiológico",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "16%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "8%"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "25400 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "63%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 299
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1409
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2698
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 5311
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/DESTREC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "682b6faf887244e2a33d0895ed149eaf",
+        "name": "BR GRON 20-30-10",
+        "image": "../media/mockupsBRAgro/BR-GRON203010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar extra soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Azufre",
+                "percentage": "1%"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Boro",
+                "percentage": "0.02%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Cobre",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 149
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BR-GRON203010_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "7b135cac19474be2ac0e6be1c421be8a",
+        "name": "BR GRON NPK 30-10-10",
+        "image": "../media/mockupsBRAgro/BRGRONNPK301010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante altamente soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "30%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "10%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Boro",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "5%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 123
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRGRONNPK301010_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "ad6544f68802421c938564395040abb0",
+        "name": "BR GRON NPK 10-40-10",
+        "image": "../media/mockupsBRAgro/BRGRONNPK104010.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante altamente soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "40%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Zinc",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Boro",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Magnesio",
+                "percentage": "5%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 148
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BRGRONNPK104010_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "e9afc0a8507f4f339ed6380dd887d3ff",
+        "name": "EPAZTRAC",
+        "image": "../media/mockupsBRAgro/EPAZTRAC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Extracto de Epazote (Chenopodium glaucum)",
+                "percentage": "30%"
+            },
+            {
+                "component": "Diluyentes y Conservadores",
+                "percentage": "70%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 239
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1098
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": 2100
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": 4117
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/EPAZTRAC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "579f2563af6c4ab48fa8b7c87f9f838b",
+        "name": "EXTRAMINO",
+        "image": "../media/mockupsBRAgro/EXTRAMINO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Aminoácidos",
+        "composition": [
+            {
+                "component": "Guanina",
+                "percentage": "800 ppm"
+            },
+            {
+                "component": "Metionina",
+                "percentage": "900 ppm"
+            },
+            {
+                "component": "Arginina",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Ácido aspártico",
+                "percentage": "1500 ppm"
+            },
+            {
+                "component": "Ácido glutámico",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Manganeso",
+                "percentage": "13%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Fierro quelatado",
+                "percentage": "10%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "15%"
+            },
+            {
+                "component": "Nitrógeno",
+                "percentage": "25%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML.",
+                "packaging": "Caja de 48 pz",
+                "price": "143"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "397"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1890"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3565"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6804"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/EXTRAMINO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "bfc82b8eae184c37ab67a3cab025f4d5",
+        "name": "FOLINITRO",
+        "image": "../media/mockupsBRAgro/FOLINITRO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "40%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Ácido glutámico",
+                "percentage": "400 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "227"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "979"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1838"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3461"
+            }
+        ],
+        "mode_of_use": [
+            {
+                "method": "Inyectado por riego",
+                "dose": "0,5 L/200L de agua"
+            },
+            {
+                "method": "Drench",
+                "dose": "5 L/200L de agua"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/FOLINITRO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "29e996469cd14b2b8ca589e6e39be4f3",
+        "name": "FULLHUMICS",
+        "image": "../media/mockupsBRAgro/FULLHUMICS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Ácidos húmicos y fúlvicos derivados de leonardita",
+        "composition": [
+            {
+                "component": "Sustancias Húmicas derivadas de leonardita",
+                "percentage": "50%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "17%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "33%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "25KG",
+                "packaging": "Bulto",
+                "price": "1130"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/FULLHUMICS_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "08d6c221d274403aa88ecafdccb842d2",
+        "name": "PEROXIGREEN",
+        "image": "../media/mockupsBRAgro/PEROXIGREEN M01.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fungicida y Bactericida de amplio espectro",
+        "composition": [
+            {
+                "component": "Peróxido de Hidrógeno",
+                "percentage": "32%"
+            },
+            {
+                "component": "ácido Peroxiacético",
+                "percentage": "8%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "60%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "513"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2484"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "4752"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "9072"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/PEROXIGREEN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "ac10a7200c9d419aa973cea3a2851b26",
+        "name": "DELUX POTASIO",
+        "image": "../media/mockupsBRAgro/DELUX POTASIO M.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar potenciado con aminoácidos y microelementos",
+        "composition": [
+            {
+                "component": "Potasio",
+                "percentage": "45%"
+            },
+            {
+                "component": "L - Aminoácidos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Hierro (Fe)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "25%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "67"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "149"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/DELUXPOTASIO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "b1001af625ac4f03bed0c6d47bd8575d",
+        "name": "GLUTAMASTER",
+        "image": "../media/mockupsBRAgro/GLUTAMASTER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Ácido glutámico",
+        "composition": [
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "98%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "2%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "150GR",
+                "packaging": "Caja de 48 pz",
+                "price": "274"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "1728"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/GLUTAMASTER_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "8a89b1126c38485094a473bed9e580b5",
+        "name": "KUPEWA",
+        "image": "../media/mockupsBRAgro/KUPEWA.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y acaracida",
+        "composition": [
+            {
+                "component": "Sales potásicas de ácidos grasos",
+                "percentage": "60%"
+            },
+            {
+                "component": "Diluyentes Inertes",
+                "percentage": "25%"
+            },
+            {
+                "component": "Acondicionadores y Surfactantes",
+                "percentage": "15%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "248"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1188"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2283"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4450"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/KUPEWA_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "52f413aef77447bb9235738b45bcecfb",
+        "name": "MASTER CALCIO BZN",
+        "image": "../media/mockupsBRAgro/MASTER CALCIO BZN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de boro, calcio y zinc",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "3%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "78%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "179"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "770"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1426"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2745"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MASTERCALCIO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "d949aaa0ff9747b89581456178724454",
+        "name": "MASTER CALCIO RIEGO",
+        "image": "../media/mockupsBRAgro/MASTER CALCIO RIEGO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante",
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Calcio asimilable",
+                "percentage": "40%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Giberelinas",
+                "percentage": "5700 ppm"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "6000 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "46%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "235"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1125"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2161"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3960"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "17101"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "32400"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MASTERCALCIORIEGO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "6ceb9c76bcb440c2b4f5314dc3e56c6a",
+        "name": "MASTER ORGANIC",
+        "image": "../media/mockupsBRAgro/MASTER ORGANIC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo orgánico fulvato",
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "35%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "5%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "45%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "186"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "857"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1618"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "3062"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "14400"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "27002"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MASTERORGANIC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "ebcddc763d114b848902d2eb7e39d869",
+        "name": "MASTER PROTECT",
+        "image": "../media/mockupsBRAgro/MASTER PROTEC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Desinfectante y sanitizante",
+        "composition": [
+            {
+                "component": "Cuaternario de Amonio",
+                "percentage": "46.5%"
+            },
+            {
+                "component": "Sulfato de Cobre Pentahidratado",
+                "percentage": "20%"
+            },
+            {
+                "component": "Coadyuvantes",
+                "percentage": "5%"
+            },
+            {
+                "component": "Diluyentes acuosos, c.s.p.",
+                "percentage": "28.5%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "334"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1551"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2984"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5400"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MASTERPROTECT_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "361a423c453c4dba9b4d33f33953dad2",
+        "name": "MAX FE",
+        "image": "../media/mockupsBRAgro/MAX FE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Fierro",
+                "percentage": "50 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "30 000 ppm%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "92%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "171"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "716"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1313"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2446"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/MAXFE_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "63bc48751a6d4cd093ec612dda29a581",
+        "name": "RENDIFLOR",
+        "image": "../media/mockupsBRAgro/RENDIFLOR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo metabólico para floración",
+        "composition": [
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "20%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "42%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "251"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2208"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4208"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RENDIFLOR_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "9e59a25ecfd1414db8ed06b57df3601a",
+        "name": "DELUX NPK 19-19-19",
+        "image": "../media/mockupsBRAgro/2.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar en polvo soluble",
+        "composition": [
+            {
+                "component": "Nitrógeno Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Potasio Asimilable",
+                "percentage": "19%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "10 000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "67"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "150"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/DELUXNPK191919_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "e73eeef676ea416b9bf54d1e835e46bf",
+        "name": "MAXI ENGORDE",
+        "image": "../media/mockupsBRAgro/MAXI ENGORDE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizantee foliar",
+        "composition": [
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "49%"
+            },
+            {
+                "component": "Nitrato (NO3)",
+                "percentage": "27%"
+            },
+            {
+                "component": "Fe Quelato",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "8%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "280"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1126"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2056"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4320"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "20700"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "39600"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MAXIENGORDE_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "6636f66c983b45bf9feb73dadcc07d10",
+        "name": "BIOARRANKE 8-24",
+        "image": "../media/mockupsBRAgro/BIOARRANKE-824.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Arrancador",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "24.6%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "7.78%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "0.04"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "0.06%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.65%"
+            },
+            {
+                "component": "Aditivos y Potencializadores",
+                "percentage": "58.65%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "154"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "577"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "898"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "1620"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "7741"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "14400"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BIOARRANKE824_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "86222446fcee45b082854bf5be25963f",
+        "name": "BIOTEK MICROS",
+        "image": "../media/mockupsBRAgro/BIOTEK-MICROS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Azufre (S)",
+                "percentage": "4%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.04%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "0.04%"
+            },
+            {
+                "component": "Hierro",
+                "percentage": "3%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.25%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "4%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "179"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "812"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1555"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2592"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BIOTEKMICROS_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "3906cfea13d444bcac04156dbe0e0610",
+        "name": "FORTIGREEN",
+        "image": "../media/mockupsBRAgro/FORTIGREEN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "19%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "19%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "19%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "800 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "43%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "193"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "857"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1441"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2522"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/FORTIGREEN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "9563bf4a228a47a29eb347cefdfc78e0",
+        "name": "GIB FRUTA XL",
+        "image": "../media/mockupsBRAgro/GIBFRUTAL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Llenador de frutos",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "1.7%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "10%"
+            },
+            {
+                "component": "Silicio (Si)",
+                "percentage": "40%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "5%"
+            },
+            {
+                "component": "Promotores Hormonales",
+                "percentage": "5000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "13.5%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "100G",
+                "packaging": "Caja de 48 pz",
+                "price": "174"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "850"
+            },
+            {
+                "size": "25KG",
+                "packaging": "1 Saco",
+                "price": "19520"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/GIBFRUTAXL_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "2b85b40dd2674a9f9c0cb74c9f12bd39",
+        "name": "MAS ZINC",
+        "image": "../media/mockupsBRAgro/MAS ZINC.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Azufre (S)",
+                "percentage": "45 g/L"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 g/L"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "186"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "853"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1373"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2602"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/MASZINC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "999d7200ef264157bc49fad05ca816d2",
+        "name": "MAXI MASTER",
+        "image": "../media/mockupsBRAgro/MAXI MASTER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento",
+        "composition": [
+            {
+                "component": "Giberelinas",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Citoquininas",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.14%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "0.44%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.30%"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "0.49%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.12%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "10 000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "107"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "334"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1566"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3030"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/MAXIMASTER_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "fdd03aec372540fb94417207aa689679",
+        "name": "NEMABIT",
+        "image": "../media/mockupsBRAgro/NEMABIT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nematicida orgánico",
+        "composition": [
+            {
+                "component": "Extractos Naturales",
+                "percentage": "40%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Promotores Hormonales",
+                "percentage": "5%"
+            },
+            {
+                "component": "Conservadores y Diluyentes",
+                "percentage": "35%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "364"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1756"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3420"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6661"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "32401"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "61200"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/NEMABIT_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "7925b1abf98b49d387cebd826bf59191",
+        "name": "NITROBAC",
+        "image": "../media/mockupsBRAgro/NITROBAC1.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de nitrógeno",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "45%"
+            },
+            {
+                "component": "Fierro EDTA",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "119"
+            },
+            {
+                "size": "25KG",
+                "packaging": "Bulto",
+                "price": "2506"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/NITROBAC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "2ece5ee4608d48b68707ada8235ab07f",
+        "name": "NUTRIX 17-17-17",
+        "image": "../media/mockupsBRAgro/NUTRIX 17.17.17.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "17%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "17%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "17%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "158"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "721"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1350"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2345"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/NUTRIX171717_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "5244c7c196974e18a6da994108a50b77",
+        "name": "POTAXION K",
+        "image": "../media/mockupsBRAgro/POTAXION K.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Nutriente foliar enriquecido con potasio y aminoácidos",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "24%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "40%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "2%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "15%"
+            },
+            {
+                "component": "Citocininas",
+                "percentage": "600 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "19%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "259"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2215"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/POTAXIONK_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "425947e5deb847ea949f4e766c7491a0",
+        "name": "POWER BAT",
+        "image": "../media/mockupsBRAgro/POWER BAT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Guano de murciélago",
+        "composition": [
+            {
+                "component": "Fierro",
+                "percentage": "600 ppm"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "25 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "4000 ppm"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "1200 ppm"
+            },
+            {
+                "component": "Nitrógeno",
+                "percentage": "2400 ppm"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "3100 ppm"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "900 ppm"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "120 ppm"
+            },
+            {
+                "component": "Materia Orgánica",
+                "percentage": "7800 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "10 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "188"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "802"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/POWERBAT_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "cfc0faff4f984400a80b4df0b6326d22",
+        "name": "QUATER SUPREME",
+        "image": "../media/mockupsBRAgro/QUATER SUPREME.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Bactericida y desinfectante",
+        "composition": [
+            {
+                "component": "Cloruro de N-aquil",
+                "percentage": "25%"
+            },
+            {
+                "component": "Carbamidas",
+                "percentage": "30%"
+            },
+            {
+                "component": "Diuyentes",
+                "percentage": "33%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "12%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "247"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1170"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2267"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "4176.9"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/QUATERSUPREME_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "32eb4dbd9854448194a3a1a8be994437",
+        "name": "QUELTEX FE",
+        "image": "../media/mockupsBRAgro/QUELTEX FE.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Quelato de alto rendimiento",
+        "composition": [
+            {
+                "component": "Hierro (Fe EDDHA) Estabilidad en pH 4 a 10",
+                "percentage": "6%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 10 pz",
+                "price": "378"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/QUELTEXFE_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "b47de51f837e4a4bbc111f1226875b72",
+        "name": "RADICREX",
+        "image": "../media/mockupsBRAgro/RADICREX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Estimulador de raíces",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "20%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "20 000 ppm"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "1700 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "800 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "108"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "229"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1126"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2161"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 garrafa",
+                "price": "3961"
+            },
+            {
+                "size": "100L",
+                "packaging": "1 Bidón",
+                "price": "18901"
+            },
+            {
+                "size": "200",
+                "packaging": "1 Bidón",
+                "price": "35280"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RADICREX_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "e5d7060a39fc45bea11b38df41caab1a",
+        "name": "RADIKON",
+        "image": "../media/mockupsBRAgro/RADIKON.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "2800 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "1000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "119.34"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "340"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1575"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "2984"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5962"
+            },
+            {
+                "size": "100",
+                "packaging": "1 Bidón",
+                "price": "20808"
+            },
+            {
+                "size": "200L",
+                "packaging": "1 Bidón",
+                "price": "59616"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RADIKON_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "f745dd3176554ac4ac310a8916b7af6d",
+        "name": "RAIXEN PLUS",
+        "image": "../media/mockupsBRAgro/RAIXEN PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "1500 ppm"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "100 000 ppm"
+            },
+            {
+                "component": "Silicio (Si)",
+                "percentage": "80000 ppm"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "200 ppm"
+            },
+            {
+                "component": "Fierro",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "100 ppm"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "50 ppm"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "50 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "78"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "161"
+            },
+            {
+                "size": "10KG",
+                "packaging": "1 Saco",
+                "price": "1515"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RAIXEN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "b9b28e169ae34ff68a9acd32fbd136b3",
+        "name": "RPH PLUS",
+        "image": "../media/mockupsBRAgro/RPH PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de PH",
+        "composition": [
+            {
+                "component": "Alcohol Tridecílico Polioxietilénico",
+                "percentage": "40%"
+            },
+            {
+                "component": "Ácido Fosfórico",
+                "percentage": "20%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "40%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "66"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "169"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "728"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1372"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2566"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RPHPLUS_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "727278170ef04f619fad1dec16d27a50",
+        "name": "RUSTIMAX",
+        "image": "../media/mockupsBRAgro/RUSTIMAX.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Complejo de fitohormonas naturales, vitaminas y activadores metabólicos",
+        "composition": [
+            {
+                "component": "Citocininas",
+                "percentage": "22000 ppm"
+            },
+            {
+                "component": "Giberelinas",
+                "percentage": "10g"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "22g"
+            },
+            {
+                "component": "Ácido Pantoténico",
+                "percentage": "10000 ppm"
+            },
+            {
+                "component": "Niacina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Tlamina",
+                "percentage": "1000 ppm"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "1000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "10G",
+                "packaging": "Caja de 40 pz",
+                "price": "72"
+            },
+            {
+                "size": "100G",
+                "packaging": "Caja de 48 pz",
+                "price": "494"
+            },
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "4644"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/RUSTIMAX_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "59983d3e4b3244e5bad11f12d5a496d4",
+        "name": "SALT MOVER",
+        "image": "../media/mockupsBRAgro/SALT MOVER.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Desalinizador y descompactador de suelos",
+        "composition": [
+            {
+                "component": "Calcio",
+                "percentage": "16%"
+            },
+            {
+                "component": "Ácidos Orgánicos",
+                "percentage": "20%"
+            },
+            {
+                "component": "Ácidos Carboxílicos",
+                "percentage": "20%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "44%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "363"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1674"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3079"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "5938"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/SALTMOVER_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "da472d4534a243858decf44c2ed00c76",
+        "name": "SOYER PLUS",
+        "image": "../media/mockupsBRAgro/SOYER PLUS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Coadyuvante Agroquímico",
+        "composition": [
+            {
+                "component": "Aceite Vegetal de Soya",
+                "percentage": "93%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "7%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "239"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1097.92"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/SOYERPLUS_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "be9f6b9d3d2342d89b938560beebbfa4",
+        "name": "SUPER GIB",
+        "image": "../media/mockupsBRAgro/SUPERGIB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento vegetal",
+        "composition": [
+            {
+                "component": "Giberelina",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "10%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "80%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "10G",
+                "packaging": "Caja de 40 pz",
+                "price": "62"
+            },
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": "578"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/SUPERGIB_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "a5922b331ae042f7b49a635d0d93a303",
+        "name": "UNIBORO",
+        "image": "../media/mockupsBRAgro/UNIBORO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante foliar",
+        "composition": [
+            {
+                "component": "Boro (B)",
+                "percentage": "9%"
+            },
+            {
+                "component": "Acondicionadores Diluyentes y Elementos Relacionados",
+                "percentage": "91%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "163"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "718"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/UNIBORO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "7a41ddc149324175b4f692e6b195426d",
+        "name": "XTREME K",
+        "image": "../media/mockupsBRAgro/XTREME K.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de Potasio",
+        "composition": [
+            {
+                "component": "Potasio",
+                "percentage": "25%"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "10%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "65%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "",
+                "price": ""
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/XTREMEK_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "8bf5963fc6aa4773b5ea87cdfe54410f",
+        "name": "YUCATECH",
+        "image": "../media/mockupsBRAgro/YUCATECH.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Mejorador y descompactador de suelos",
+        "composition": [
+            {
+                "component": "Extractos de Yucca Shidigera",
+                "percentage": "90%"
+            },
+            {
+                "component": "Óxidos de Alcanos copolimerizados",
+                "percentage": "10%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "286"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": 1307
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/YUCATECH_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "c10af7eb0fb342028e49691252f65236",
+        "name": "ZUKER MOB",
+        "image": "../media/mockupsBRAgro/ZUCKER MOB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Boro y molibdeno",
+        "composition": [
+            {
+                "component": "Molibdeno",
+                "percentage": "9%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "1%"
+            },
+            {
+                "component": "Acondicionadores y Diluyentes",
+                "percentage": "90%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "131"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "448"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2078"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/ZUKERMOB_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "55664ca15e384ab093bef7e8b6b1377f",
+        "name": "ALMATINA",
+        "image": "../media/mockupsBRAgro/ALMATINA-M1.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Extracto de algas marinas",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "1.35%"
+            },
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "17%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.33%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "1.20%"
+            },
+            {
+                "component": "Extracto de Algas Marinas",
+                "percentage": "47%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "33.12%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": 626
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/ALMATINA_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "de2eff1b292a45809babcbb6e83d0b2a",
+        "name": "ULTRACIT",
+        "image": "../media/mockupsBRAgro/ULTRACIT 250 ML.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento",
+        "composition": [
+            {
+                "component": "Complejo de Citocininas",
+                "percentage": "15 800 ppm"
+            },
+            {
+                "component": "Complejo Vitamínico",
+                "percentage": "1%"
+            },
+            {
+                "component": "Ácidos fúlvicos",
+                "percentage": "1%"
+            },
+            {
+                "component": "Aminoácidos Libres",
+                "percentage": "25%"
+            },
+            {
+                "component": "Acondicionadores e Inertes",
+                "percentage": "71.88%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "100GR",
+                "packaging": "Caja de 48 pz",
+                "price": 410
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/ULTRACIT_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "946149ebbdc243e6a1833664fa1979f5",
+        "name": "HIPEROOT",
+        "image": "../media/mockupsBRAgro/HIPEROOT.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Enraizador",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "11%"
+            },
+            {
+                "component": "Fósforo (P2O2)",
+                "percentage": "55%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "0.30%"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "0.03%"
+            },
+            {
+                "component": "Algas Marinas (Ascophullum Nodosum)",
+                "percentage": "6%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1KG",
+                "packaging": "Caja de 20 pz",
+                "price": "421"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/HIPEROOT_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "26ec2c7c7cca481d92cdc238babd6204",
+        "name": "BIO ACTIVO GD",
+        "image": "../media/mockupsBRAgro/BIOACTIVOGD.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Biorregulador",
+        "composition": [
+            {
+                "component": "Giberelina",
+                "percentage": "3081 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "310 ppm"
+            },
+            {
+                "component": "Auxinas",
+                "percentage": "400 ppm"
+            },
+            {
+                "component": "Aminoácidos",
+                "percentage": "20 ppm"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "98.9%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "400"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BIOACTIVOGD_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "2c6088ebac664586b8bfcca69b96fbe5",
+        "name": "PINAFULL",
+        "image": "../media/mockupsBRAgro/PINAFULL.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de crecimiento vegetal",
+        "composition": [
+            {
+                "component": "Sodio 2 (3-clorofenoxiapropionato) No menos de:(equivalente a 75g de i.a./L)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "92%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": 3456
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1620"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3132"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "6264"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/PINAFULL_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "3f3282daf43d4d3bbd1810e6cc759ff3",
+        "name": "MAGNO BION MG",
+        "image": "../media/mockupsBRAgro/MAGNO BION MG.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fuente de magnesio",
+        "composition": [
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "6%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "1%"
+            },
+            {
+                "component": "Inertes",
+                "percentage": "93%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "OOS",
+                "price": "N/A"
+            },
+            {
+                "size": "5L",
+                "packaging": "OOS",
+                "price": "N/A"
+            },
+            {
+                "size": "10L",
+                "packaging": "OOS",
+                "price": "N/A"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/MAGNO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "5fbf5a54be144c7782fdd9228d9afe5c",
+        "name": "VIRUSTAN",
+        "image": "../media/mockupsBRAgro/VIRUSTAN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Regulador de Crecimiento tipo 2",
+        "composition": [
+            {
+                "component": "Antioxidantes",
+                "percentage": "4%"
+            },
+            {
+                "component": "Complejo Hormonal",
+                "percentage": "1%"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "95%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "414"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "1978"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "3985"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "7128"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/VIRUSTAN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "ed222876db8a41a693c1238b5ac5041a",
+        "name": "KILLEG",
+        "image": "../media/mockupsBRAgro/KILLEG.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida Acaricida",
+        "composition": [
+            {
+                "component": "Dioctil Sulfosuccianato de Sodio (Equivalente a 757.74 gr i.a/L A 20°C)",
+                "percentage": "70%"
+            },
+            {
+                "component": "Diluyente",
+                "percentage": "30%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "176"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "486"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/KILLEG_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "2ea21e0f5d86401b90a6bd84851bc01c",
+        "name": "VERWET",
+        "image": "../media/mockupsBRAgro/VERWET.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Coadyuvante Agrícola No Iónico",
+        "composition": [
+            {
+                "component": "Poliester-Polimeltilsoloxano Copolimero (Equivalente a 1019.21 gr de i.a/L)",
+                "percentage": "100%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "188"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "605"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "2808"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "5616"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "11232"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/VERWET_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "6dcb0b8127374a66ac025ca497e9d62c",
+        "name": "KUCOB",
+        "image": "../media/mockupsBRAgro/KUCOB.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fungicida - Bactericida",
+        "composition": [
+            {
+                "component": "Gluconato de Cobre (Equivalente a 264.8 g.i.a/L a 20°C)",
+                "percentage": "25%"
+            },
+            {
+                "component": "Coadyuvantes y Diluyentes",
+                "percentage": "75%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "204"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "670"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/KUCOB_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "d68fca38acee41b59a455f0dea950582",
+        "name": "DISPERXIC",
+        "image": "../media/mockupsBRAgro/DISPERXIC 250 ML.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Dispersante",
+        "composition": [
+            {
+                "component": "Alcohol Tridecílico Polioxietilénico",
+                "percentage": "20.2%"
+            },
+            {
+                "component": "Nonilfenol Polioxietilenado",
+                "percentage": "5.2%"
+            },
+            {
+                "component": "Propilenglicol",
+                "percentage": "5.5%"
+            },
+            {
+                "component": "Diluyentes y Acondicionadores",
+                "percentage": "69.1%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250ML",
+                "packaging": "Caja de 48 pz",
+                "price": "74"
+            },
+            {
+                "size": "1L",
+                "packaging": "Caja de 12 pz",
+                "price": "160"
+            },
+            {
+                "size": "5L",
+                "packaging": "1 Garrafa",
+                "price": "702"
+            },
+            {
+                "size": "10L",
+                "packaging": "1 Garrafa",
+                "price": "1240"
+            },
+            {
+                "size": "20L",
+                "packaging": "1 Garrafa",
+                "price": "2160"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/DISPERXIC_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "3cb26d19818b4a4097a4fb0b1ab6057a",
+        "name": "BR PACK",
+        "image": "../media/mockupsBRAgro/BR PACK.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Diseñado para brindar a tus cultivos l amejor biotecnología CULTIVOS: Maíz, Arroz, Avena, Cebada, Sorgo, Trigo, Soya, Alfalfa, Garbanzo, Frijol, Caña",
+        "presentations": [
+            {
+                "size": "Desarrollo",
+                "packaging": "1 PAQUETE",
+                "price": "531"
+            },
+            {
+                "size": "Llenado",
+                "packaging": "1 PAQUETE",
+                "price": "531"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRPACK_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "e45742cd84994744bbe7ba96fd181ede",
+        "name": "BR PACK GAVE ENRAIZADOR",
+        "image": "../media/mockupsBRAgro/AGAVE-ENRAIZADOR.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "15%"
+            },
+            {
+                "component": "Ácido Naftalenacético",
+                "percentage": "2800 ppm"
+            },
+            {
+                "component": "Ácido Indolbutirico",
+                "percentage": "1000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "994"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRPACKGAVEENRAIZADOR_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "7cd3928c4d5c4b5e940f8664e7c151d4",
+        "name": "BR PACK GAVE DESARROLLO",
+        "image": "../media/mockupsBRAgro/AGAVE-DESARROLLO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "20%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "30%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "10%"
+            },
+            {
+                "component": "Fúlvicos",
+                "percentage": "5%"
+            },
+            {
+                "component": "Azufre (S)",
+                "percentage": "1%"
+            },
+            {
+                "component": "Calcio",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Magnesio (Mg)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Boro (B)",
+                "percentage": "0.02%"
+            },
+            {
+                "component": "Hierro (Fe)",
+                "percentage": "0.10%"
+            },
+            {
+                "component": "Cobre (Cu)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Manganeso (Mn)",
+                "percentage": "0.05%"
+            },
+            {
+                "component": "Cobalto",
+                "percentage": "0.002%"
+            },
+            {
+                "component": "Molibdeno",
+                "percentage": "0.005%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "2000 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2000 ppm"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "1015"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRPACKGAVEDESARROLLO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "b9547d551dfb4c7589b1ff3ebd43d7e0",
+        "name": "BR PACK GAVE LLENADO",
+        "image": "../media/mockupsBRAgro/AGAVE LLENADO.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Potasio (K2O)",
+                "percentage": "49%"
+            },
+            {
+                "component": "Nitrato (NO3)",
+                "percentage": "27%"
+            },
+            {
+                "component": "Fe Quelato",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ácidos húmicos",
+                "percentage": "8%"
+            },
+            {
+                "component": "Giberelina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Citoquinina",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "8%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "907"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRPACKGAVELLENADO_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "09c311443cf64ac6a448313dc149f0e4",
+        "name": "BR PACK GAVE ANTIESTRÉS",
+        "image": "../media/mockupsBRAgro/AGAVE ANTIESTRÉS.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Fertilizante orgánico",
+        "composition": [
+            {
+                "component": "Nitrógeno(N)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Fósforo",
+                "percentage": "16%"
+            },
+            {
+                "component": "Potasio",
+                "percentage": "5%"
+            },
+            {
+                "component": "Zinc (Zn)",
+                "percentage": "8%"
+            },
+            {
+                "component": "Ácido Glutámico",
+                "percentage": "10%"
+            },
+            {
+                "component": "Aminoácidos esenciales",
+                "percentage": "2500 ppm"
+            },
+            {
+                "component": "Acondicionadores",
+                "percentage": "53%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "Pack",
+                "packaging": "1 PAQUETE",
+                "price": "821"
+            }
+        ],
+        "downloadUrll": "/media/FichaTec/BRPACKGAVEANTIESTRES_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "c3ed74f9f93c414abcd2ba9df8f5e562",
+        "name": "BR BECTINA",
+        "image": "../media/mockupsBRAgro/BR BECTINA.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Benzoato de Emamectina",
+                "percentage": "3%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "97%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "200 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BRBECTINA_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "6d460d3bdaa24fb7b1b999a3e91e4ab2",
+        "name": "BR BAM",
+        "image": "../media/mockupsBRAgro/BR BAM.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida y Acaricida",
+        "composition": [
+            {
+                "component": "Abamectina",
+                "percentage": "2.3%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "97.7%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "250 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BRBAM_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    },
+    {
+        "id": "c0d29e5c4ea7431d8c97b7ed0b1f1834",
+        "name": "BR SPIN",
+        "image": "../media/mockupsBRAgro/BR SPIN.png",
+        "category": "CATEGORIA BR AGRO",
+        "details": "Insecticida",
+        "composition": [
+            {
+                "component": "Spinosad",
+                "percentage": "12%"
+            },
+            {
+                "component": "Ingredientes Inertes",
+                "percentage": "88%"
+            }
+        ],
+        "presentations": [
+            {
+                "size": "200 ML",
+                "packaging": "N/A",
+                "price": "N/A"
+            },
+            {
+                "size": "1L",
+                "packaging": "N/A",
+                "price": "N/A"
+            }
+        ],
+        "downloadUrl": "/media/FichaTec/BRSPIN_FICHA_TECNICA.pdf",
+        "recommendations": "Aplicar en horas de la mañana o tarde para evitar la evaporación rápida.",
+        "crops": [
+            "Maíz",
+            "Trigo",
+            "Frijol"
+        ],
+        "pests_diseases": [
+            "Mosca blanca",
+            "Ácaros"
+        ],
+        "dose": "Diluir 1L en 200L de agua y aplicar con pulverizador de alta presión.",
+        "warnings": "No aplicar en horas de alta temperatura. Evitar contacto con la piel y ojos.",
+        "first_aid": "En caso de contacto con los ojos, lavar con abundante agua durante 15 minutos. Si se ingiere, acudir inmediatamente al médico."
+    }
+]

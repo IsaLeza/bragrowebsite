@@ -1,5 +1,6 @@
 import React from "react";
 import "./Distribuidor.css";
+import { Helmet } from "react-helmet-async";
 
 const distribuidores = [
   { nombre: "Ing. Porfirio Moisés Huerta Lobato", municipio: "Tochtepec", estado: "Puebla", telefono: "2492119462" },
@@ -44,6 +45,18 @@ const distribuidoresPorEstado = distribuidores.reduce((acc, distribuidor) => {
 function DistribuidoresScreenCopy() {
   return (
     <div className="distribuidores-container">
+      <Helmet>
+        <title>BR Agro - Distribuidores</title>
+        <meta
+          name="description"
+          content="Optimiza tu producción agrícola con los mejores agroquímicos del mercado. BR Agro ofrece fertilizantes, insecticidas y soluciones innovadoras para el campo."
+        />
+        <meta
+          name="keywords"
+          content="Agroquímicos, fertilizantes agrícolas, insecticidas, BR Agro, protección de cultivos, distribuidores agroquímicos, soluciones agrícolas, nutrición vegetal, bioestimulantes"
+        />
+        <meta name="author" content="isaSoft" />
+      </Helmet>
       <h1 className="title">Nuestros Distribuidores Autorizados</h1>
       {Object.keys(distribuidoresPorEstado).map((estado, index) => (
         <div key={index} className="estado-section">
@@ -52,7 +65,7 @@ function DistribuidoresScreenCopy() {
             <div key={index} className="distribuidor-item">
               <h3>{distribuidor.nombre}</h3>
               <p>{distribuidor.estado}</p>
-              <p style={{color:"green", fontWeight:"bold"}}>Tel: {distribuidor.telefono}</p>
+              <p style={{ color: "green", fontWeight: "bold" }}>Tel: {distribuidor.telefono}</p>
 
             </div>
           ))}

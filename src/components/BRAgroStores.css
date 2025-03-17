@@ -1,0 +1,138 @@
+/* ============================= */
+/*      Sección para Tiendas     */
+/* ============================= */
+
+.br-agro-stores {
+    
+    width: 100%;
+    background: var(--color-bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    overflow: hidden; /* ✅ Evita cualquier desbordamiento */
+    margin-bottom: 60px; /* ✅ Separa esta sección de la siguiente */
+}
+
+.br-stores-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row; /* ✅ Imagen y texto en línea en pantallas grandes */
+    align-items: center;
+    gap: 40px;
+    min-height: auto; /* ✅ Se asegura de no forzar altura innecesaria */
+}
+
+/* Texto */
+.br-stores-text {
+    flex: 1;
+    text-align: left;
+}
+
+.br-stores-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.br-stores-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color-text);
+    margin-bottom: 20px;
+}
+
+/* Beneficios */
+.br-stores-benefits {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.br-stores-benefits li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.br-stores-benefits li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #1da43b;
+    font-weight: bold;
+}
+
+/* Botón */
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebc58;
+}
+
+/* Imagen */
+.br-stores-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.br-image {
+    width: auto;
+    max-width: 400px; /* ✅ Tamaño fijo de la imagen */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================= */
+/*       Responsive Design       */
+/* ============================= */
+
+@media (max-width: 1024px) {
+    .br-stores-container {
+        flex-direction: column; /* ✅ Texto abajo en móviles/tablets */
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding-bottom: 40px; /* ✅ Se asegura de dar más espacio */
+    }
+
+    .br-stores-text {
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .br-stores-benefits {
+        text-align: left;
+    }
+
+    .br-image {
+        max-width: 300px; /* ✅ Imagen más pequeña en tablets */
+    }
+
+    .btn-whatsapp {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .br-image {
+        max-width: 250px;
+    }
+}

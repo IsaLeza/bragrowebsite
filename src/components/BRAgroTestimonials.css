@@ -1,0 +1,135 @@
+/* ============================= */
+/*       Sección de Reseñas      */
+/* ============================= */
+
+.br-agro-reviews {
+    width: 100%;
+    background: var(--color-bg-light);
+    padding: 60px 5%;
+    text-align: center;
+    overflow-x: hidden; /* ✅ Evita desbordamiento horizontal */
+    box-sizing: border-box;
+}
+
+/* Contenedor de título con logo */
+.reviews-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.reviews-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Logo de Google Reviews */
+.google-reviews-logo {
+    width: 140px;
+    height: auto;
+}
+
+/* Swiper (Slider de testimonios) */
+.reviews-slider {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+    overflow: hidden; /* ✅ Evita que el slider genere scroll horizontal */
+}
+
+/* Tarjeta de reseña */
+.review-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Encabezado de reseña */
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Imagen del usuario */
+.review-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Información del usuario */
+.review-info p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+/* Estrellas */
+.review-rating {
+    display: flex;
+    gap: 3px;
+}
+
+.star {
+    font-size: 18px;
+    color: #FFD700; /* Amarillo para las estrellas */
+}
+
+.star.empty {
+    color: #ccc;
+}
+
+/* Comentario */
+.review-comment {
+    font-size: 14px;
+    color: #444;
+    font-style: italic;
+}
+
+/* ============================= */
+/*       Responsive Design       */
+/* ============================= */
+
+@media (max-width: 1024px) {
+    .br-agro-reviews {
+        padding: 50px 3%;
+    }
+
+    .reviews-slider {
+        max-width: 100%;
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .br-agro-reviews {
+        padding: 40px 3%;
+    }
+
+    .reviews-slider {
+        width: 100%;
+        overflow-x: hidden; /* ✅ Asegura que no haya scroll horizontal */
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 90%; /* ✅ Se ajusta mejor a pantallas pequeñas */
+        margin: 0 auto;
+    }
+}
