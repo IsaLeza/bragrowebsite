@@ -311,7 +311,7 @@ a:hover {
   position: relative;
   z-index: 2;
   max-width: 100%;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -474,7 +474,7 @@ a:hover {
   gap: 40px; /* Menos separación para evitar descuadres */
   flex-wrap: nowrap; /* Mantener en una fila */
   max-width: 100%;
-  width: 100%;
+  width: 90%;
 }
 
 /* Cada elemento */
@@ -1079,17 +1079,17 @@ a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #fff; /* White background */
-  padding: 80px 40px 20px; /* Increased padding-top for navbar */
+  background-color: #fff;
+  padding: 80px 40px 20px; /* Espacio para navbar */
   max-width: 100%;
+  box-sizing: border-box;
 }
 
-/* Search Bar */
+/* Barra de Búsqueda */
 .search-container {
   width: 100%;
   max-width: 600px;
-  margin-bottom: 24px; /* Space below search bar */
-  position: relative;
+  margin-bottom: 24px;
 }
 
 .search-input {
@@ -1100,36 +1100,36 @@ a:hover {
   font-size: 16px;
   outline: none;
   transition: border-color 0.3s ease;
-  text-align: left; /* Left-aligned text */
+  text-align: left;
 }
 
 .search-input:focus {
   border-color: #007bff;
 }
 
-/* Grid - Improved Responsive Layout */
+/* Grid - Mantener Tamaño Fijo */
 .pscreen-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  column-gap: 32px; /* Horizontal spacing */
-  row-gap: 40px; /* Vertical spacing */
-  max-width: 100%;
-  width: 80%;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* ✅ Todas las tarjetas tienen el mismo ancho */
+  column-gap: 32px;
+  row-gap: 40px;
+  max-width: 1200px; /* ✅ Mantiene el grid dentro de la estructura */
+  width: 100%;
   padding: 10px;
+  margin: auto; /* ✅ Centra el grid */
 }
 
-/* Card */
+/* Tarjeta del Producto */
 .pscreen-card {
   background-color: #fff;
-  width: 280px;
+  width: 280px; /* ✅ Todas las tarjetas tienen el mismo ancho */
   height: auto;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 15px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the left */
+  align-items: flex-start;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   opacity: 0;
@@ -1142,21 +1142,11 @@ a:hover {
   transform: translateY(0);
 }
 
-/* Image */
-.pscreen-img-container {
-  width: 100%;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
+/* Imagen */
 .pscreen-img {
   width: 100%;
   height: 240px;
-  object-fit: scale-down; /* Maintain proportions */
+  object-fit: scale-down;
   object-position: center;
   border-radius: 8px;
   transition: opacity 0.5s ease-in-out;
@@ -1167,30 +1157,30 @@ a:hover {
   opacity: 1;
 }
 
-/* Details */
+/* Detalles */
 .pscreen-details {
   margin-top: 12px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   color: #232b5e;
   font-size: 16px;
   font-weight: bold;
   width: 100%;
 }
 
-/* Stars */
+/* Estrellas */
 .pscreen-stars {
   color: #ffd001;
   font-size: 18px;
   margin-top: 5px;
-  text-align: left; /* Align stars to the left */
+  text-align: left;
 }
 
-/* Sizes */
+/* Presentaciones */
 .pscreen-sizes {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Align to the left */
+  justify-content: flex-start;
   margin-top: 5px;
 }
 
@@ -1203,46 +1193,33 @@ a:hover {
   font-weight: bold;
 }
 
-/* Load More Observer (Invisible) */
+/* Lazy Load Trigger */
 .lazy-load-trigger {
   height: 10px;
   width: 100%;
   margin: 20px 0;
 }
 
-/* General Layout */
-.product-screen {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  padding: 2%;
-  color: #333;
-  font-family: 'Arial', sans-serif;
-}
+/* ============================= */
+/*        Responsive Design      */
+/* ============================= */
 
-/* 🔹 RESPONSIVENESS */
-
-/* Tablets (768px - 1024px) */
+/* Tablets */
 @media (max-width: 1024px) {
   .pscreen-container {
-    padding-top: 100px; /* More top padding to avoid navbar overlap */
+    padding-top: 100px;
   }
 
   .pscreen-grid {
     width: 90%;
-    column-gap: 24px; /* Slightly less gap on smaller screens */
-    row-gap: 30px;
-  }
-
-  .pscreen-card {
-    width: 100%; /* Full width on smaller tablets */
+    column-gap: 24px;
   }
 }
 
-/* Mobile Phones (max-width: 768px) */
+/* Móviles */
 @media (max-width: 768px) {
   .pscreen-container {
-    padding-top: 120px; /* More top padding for mobile */
+    padding-top: 120px;
   }
 
   .pscreen-grid {
@@ -1252,12 +1229,14 @@ a:hover {
   }
 
   .pscreen-card {
-    width: 100%; /* Cards take full width */
+    width: 100%; /* ✅ Se mantiene el mismo ancho en móviles */
+    max-width: 280px;
     padding: 12px;
+    margin: auto; /* ✅ Asegura que todas las tarjetas estén alineadas */
   }
 
   .pscreen-img {
-    height: 200px; /* Slightly smaller images for mobile */
+    height: 200px;
   }
 
   .search-container {
@@ -1265,21 +1244,23 @@ a:hover {
   }
 
   .search-input {
-    font-size: 14px; /* Adjust input size */
+    font-size: 14px;
     padding: 10px 15px;
   }
 }
-
 
 
 /* General Layout */
 /* Contenedor General */
 .pdetail-container {
   max-width: 1200px;
+  width: 100%;
   margin: auto;
-  padding: 80px 40px 20px;
+  padding: 100px 20px 20px; /* ✅ Se asegura que haya espacio para el navbar */
   background-color: transparent;
   text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden; /* ✅ Evita desbordamiento horizontal */
 }
 
 /* Sección Principal */
@@ -1287,7 +1268,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 40px;
- 
+  max-width: 100%;
 }
 
 /* Cabecera del Producto */
@@ -1297,19 +1278,20 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
+  max-width: 100%;
 }
 
 /* Imagen del Producto */
 .pdetail-img-wrapper {
   flex: 1;
   text-align: center;
-
+  max-width: 50%;
 }
 
 .pdetail-image {
-  width: auto;
-  height: 350px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   object-fit: scale-down;
   border-radius: 10px;
 }
@@ -1318,7 +1300,7 @@ a:hover {
 .pdetail-info {
   flex: 1;
   text-align: left;
-
+  max-width: 50%;
 }
 
 .pdetail-title {
@@ -1336,16 +1318,10 @@ a:hover {
 .pdetail-section {
   text-align: left;
   padding: 20px;
-  background-color: #fff; /* Fondo blanco para cada sección */
+  background-color: #fff;
   border-radius: 10px;
   margin-bottom: 20px;
-}
-
-.pdetail-heading {
-  color: #2980b9;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #16a085;
-  padding-bottom: 10px;
+  max-width: 100%;
 }
 
 /* Composición y Presentaciones */
@@ -1363,79 +1339,114 @@ a:hover {
   padding: 15px 20px;
   background-color: #ecf0f1;
   border-radius: 5px;
-}
-
-.pdetail-component-name,
-.pdetail-presentation-size {
-  font-weight: bold;
-  color: #2980b9;
+  max-width: 100%;
 }
 
 /* Productos Relacionados */
 .pdetail-related {
-    text-align: center;
-    margin-top: 50px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 /* Grid de productos relacionados */
 .pdetail-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
-    background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  background-color: #fff;
+  max-width: 100%;
 }
 
 /* Tarjetas de productos */
 .pdetail-grid-item {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    width: 100%;
-    max-width: 250px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  width: 100%;
+  max-width: 250px;
 }
 
 .pdetail-grid-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Imágenes de productos con scale-down */
 .pdetail-grid-image {
-    width: 100%;
-    height: 200px;
-    object-fit: scale-down;
-    object-position: center;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-/* Responsive Design */
+/* ============================= */
+/*        Responsive Design      */
+/* ============================= */
+
+/* Tablets */
 @media (max-width: 1024px) {
-    .pdetail-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .pdetail-container {
+    padding: 120px 15px 40px; /* ✅ Espacio para el navbar fijo */
+  }
+
+  .pdetail-header {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .pdetail-img-wrapper,
+  .pdetail-info {
+    max-width: 100%;
+  }
+
+  .pdetail-image {
+    max-width: 80%;
+  }
+
+  .pdetail-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* Móviles */
 @media (max-width: 768px) {
-  .pdetail-container{
-    padding-top: 150px;
+  .pdetail-container {
+    padding-top: 150px; /* ✅ Mayor espacio para navbar fijo */
   }
-    .pdetail-grid {
-        grid-template-columns: 1fr;
-    }
 
-    .pdetail-grid-image {
-        height: 180px;
-    }
+  .pdetail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pdetail-grid-image {
+    height: 180px;
+  }
+
+  .pdetail-header {
+    flex-direction: column;
+  }
+
+  .pdetail-img-wrapper,
+  .pdetail-info {
+    max-width: 100%;
+  }
+
+  .pdetail-image {
+    max-width: 90%;
+  }
 }
 
 /* Botón flotante de descarga - Ficha Técnica */
@@ -1468,10 +1479,10 @@ a:hover {
 /* Responsividad para tablets y móviles */
 @media (max-width: 768px) {
   .pdetail-download-button {
-      bottom: 15px;
-      right: 15px;
-      padding: 12px 20px;
-      font-size: 14px;
+    bottom: 15px;
+    right: 15px;
+    padding: 12px 20px;
+    font-size: 14px;
   }
 }
 
