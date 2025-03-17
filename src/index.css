@@ -1478,12 +1478,13 @@ a:hover {
 /* Contenedor principal */
 .distribuidores-container {
   width: 100%;
-  max-width: 1200px; /* Mantener dentro de la estructura de la página */
+  max-width: 1200px; /* ✅ Mantiene la estructura dentro del sitio */
   margin: auto;
   padding: 60px 40px 20px;
   background-color: #f8f9fa;
   text-align: center;
   overflow: hidden;
+  box-sizing: border-box; /* ✅ Evita que padding y margin afecten el tamaño */
 }
 
 /* Título Principal */
@@ -1503,6 +1504,7 @@ a:hover {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
   overflow: hidden;
+  max-width: 100%; /* ✅ Evita que se salga de la estructura */
 }
 
 /* Título de Estado */
@@ -1531,6 +1533,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   transition: background 0.3s ease;
+  max-width: 100%; /* ✅ Evita que los elementos se salgan del contenedor */
 }
 
 .distribuidor-item:hover {
@@ -1544,10 +1547,14 @@ a:hover {
   font-size: 16px;
 }
 
-/* Responsive Design */
+/* ============================= */
+/*        Responsive Design      */
+/* ============================= */
+
+/* Tablets */
 @media (max-width: 1024px) {
   .distribuidores-container {
-    padding: 50px 30px;
+    padding: 100px 30px 50px; /* ✅ Agrega espacio para navbar fijo */
   }
   .estado-section {
     padding: 15px;
@@ -1557,10 +1564,10 @@ a:hover {
   }
 }
 
+/* Móviles */
 @media (max-width: 768px) {
   .distribuidores-container {
-    width: fit-content;
-    padding: 40px 15px;
+    padding: 120px 15px 40px; /* ✅ Mayor padding-top para el navbar fijo */
   }
   .title {
     font-size: 24px;
@@ -1572,6 +1579,7 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
+    max-width: 100%;
   }
   .distribuidor-item span.telefono {
     margin-top: 5px;
