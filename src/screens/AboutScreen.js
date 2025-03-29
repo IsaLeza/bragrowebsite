@@ -44,25 +44,19 @@ function AboutScreen() {
             {/* Sección 2: Biografía del Fundador */}
             <section className="founder-section">
                 <div className="founder-image">
-                    <img src={process.env.PUBLIC_URL + "/media/benito.png"} alt="Benito Reyes - Fundador" />
+                    <img src={process.env.PUBLIC_URL + "/media/mision-br.png"} alt="Visión BR Agro" />
                 </div>
                 <div className="founder-text">
                     <h2>Una Visión que Transforma</h2>
-                    <h3>Ing. Benito Reyes</h3>
+                    <h3>Visión</h3>
                     <p>
-                        <strong>El Ingeniero Benito Reyes</strong> fundó BR Agro con la convicción de que el campo
-                        mexicano necesita más que productos: necesita <strong>personas preparadas</strong> y
-                        oportunidades reales de crecimiento.
+                        En BR Agro creemos que el campo mexicano necesita más que productos: necesita <strong>personas preparadas</strong> y oportunidades reales de crecimiento.
                     </p>
                     <p>
-                        Con varios años en el sector agrícola, identificó que muchos jóvenes agrónomos
-                        no encontraban el camino para desarrollar su propio negocio. Así nació una visión de
-                        crecimiento basada en <strong>formar una red nacional de emprendedores</strong>,
-                        brindándoles acceso a herramientas, conocimiento y modelos de negocio rentables.
+                        Nuestra visión es construir una red nacional de <strong>emprendedores agrícolas</strong>, brindándoles acceso a herramientas, conocimiento y modelos de negocio rentables para impulsar el desarrollo del sector y transformar vidas en las comunidades rurales.
                     </p>
                 </div>
             </section>
-
             {/* Sección 3: Historia de BR Agro */}
             <section className="company-history">
                 <div className="history-text">
@@ -87,7 +81,7 @@ function AboutScreen() {
             <section className="expansion-strategy">
                 <h2>Construyendo una Red de Líderes Agrónomos</h2>
                 <p>
-                    No creemos en la competencia individual. Creemos en la <strong> colaboración</strong>
+                    No creemos en la competencia individual. Creemos en la <strong> colaboración </strong>
                     como la clave para transformar el campo mexicano. Por eso, nuestra estrategia de expansión
                     está basada en la <strong> formación de redes de agrónomos</strong>, donde cada miembro
                     crece junto con nosotros.
@@ -115,7 +109,7 @@ function AboutScreen() {
                     </p>
                 </div>
                 <div className="commitment-image">
-                    <img src={process.env.PUBLIC_URL + "/media/socio-entrega.png"} alt="Compromiso con el campo" />
+                    <img src={process.env.PUBLIC_URL + "/media/main-img.png"} alt="Compromiso con el campo" />
                 </div>
             </section>
 
