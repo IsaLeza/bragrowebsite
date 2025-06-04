@@ -60,17 +60,13 @@ Antes de desplegar, necesitas tener una cuenta activa en una plataforma de hosti
 Opción 1: Netlify
 https://www.netlify.com/pricing/
 
-Plan gratuito con opción de pago desde $19 USD/mes para funcionalidades avanzadas
+$19 USD/mes para funcionalidades avanzadas
 
 Opción 2: Vercel
 https://vercel.com/pricing
 
-Plan gratuito, pago desde $20 USD/mes para equipo o dominios avanzados
+$20 USD/mes para equipo o dominios avanzados
 
-Opción 3: Hostinger (hosting tradicional)
-https://www.hostinger.mx
-
-Planes desde $2 USD/mes (requiere configuración manual vía FTP)
 
 📄 Licencia
 Este proyecto está licenciado bajo MIT License.
