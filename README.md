@@ -1,71 +1,133 @@
-# Getting Started with Create React App
+# 🌐 Deploying a React Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene un proyecto web construido con **ReactJS**. A continuación, se explica cómo instalar, ejecutar en desarrollo y desplegar en producción.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📦 Requisitos
 
-### `npm start`
+Antes de comenzar, asegúrate de tener instalado:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (v16+ recomendado) 👉 https://nodejs.org  
+- npm o yarn  
+- Git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Instalación local
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clonar el repositorio**
 
-### `npm run build`
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+cd nombre-del-repositorio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Instalar las dependencias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
+# o con yarn
+yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Iniciar entorno de desarrollo
+npm run dev
+# o
+yarn dev
 
-### `npm run eject`
+Visita http://localhost:5173 si usas Vite, o http://localhost:3000 si usas Create React App.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Crear tu propio repositorio en GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Entra a https://github.com/new
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Crea un repositorio vacío con el nombre que desees
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Copia la URL del nuevo repositorio
 
-## Learn More
+Subir tu proyecto a tu nuevo repositorio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copiar
+Editar
+git remote remove origin
+git remote add origin https://github.com/TU-USUARIO/NUEVO-REPO.git
+git add .
+git commit -m "Primer commit"
+git push -u origin main
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+💳 Elegir Hosting y Configurar Pagos
+Antes de desplegar, necesitas tener una cuenta activa en una plataforma de hosting con método de pago configurado. Aquí te damos tres opciones:
 
-### Code Splitting
+Opción 1: Netlify
+https://www.netlify.com/pricing/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Plan gratuito con opción de pago desde $19 USD/mes para funcionalidades avanzadas
 
-### Analyzing the Bundle Size
+Opción 2: Vercel
+https://vercel.com/pricing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Plan gratuito, pago desde $20 USD/mes para equipo o dominios avanzados
 
-### Making a Progressive Web App
+Opción 3: Hostinger (hosting tradicional)
+https://www.hostinger.mx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Planes desde $2 USD/mes (requiere configuración manual vía FTP)
 
-### Advanced Configuration
+📄 Licencia
+Este proyecto está licenciado bajo MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔧 Mantenimiento y SEO básico
+A continuación, una lista de buenas prácticas para mantener tu sitio web actualizado y optimizado para buscadores:
 
-### Deployment
+✅ Actualiza dependencias con regularidad
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Usa npm outdated y npm update para mantener tu proyecto seguro y estable.
 
-### `npm run build` fails to minify
+🌐 Agrega metaetiquetas SEO en el archivo index.html
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# bragrowebsite
+<meta name="description" content="...">
+
+<meta name="keywords" content="...">
+
+<meta property="og:title" content="...">
+
+<meta property="og:image" content="...">
+
+🔍 Usa estructura semántica
+
+Solo un <h1> por página.
+
+Usa <h2>, <h3> para jerarquía de contenido.
+
+Incluye atributos alt descriptivos en imágenes.
+
+⚡ Optimiza imágenes
+
+Comprime antes de subir (ej: tinypng.com o squoosh.app)
+
+Usa formatos modernos como .webp
+
+🗺️ Agrega sitemap.xml y robots.txt
+
+Facilita el rastreo por parte de Google y otros buscadores.
+
+Puedes generarlos con herramientas como xml-sitemaps.com
+
+🧪 Revisa el rendimiento SEO y UX
+
+Usa PageSpeed Insights o Lighthouse para:
+
+Tiempo de carga
+
+Accesibilidad
+
+Buenas prácticas
+
+Puntuación SEO
+
+🔐 Verifica dominio y SSL
+
+Asegúrate de tener:
+
+Dominio activo y apuntando correctamente
+
+Certificado SSL (HTTPS) vigente
